@@ -1,0 +1,170 @@
+@import "compass";
+@import "variables";
+@import "mixins";
+
+.title{
+  max-width: 330px;
+  font-size: 2em;
+  padding: 20px 10px;
+}
+
+
+.modal-lg{
+  width: 90%;
+
+  h1{
+    font-size: 1.5em;
+    margin: 20px 0 0;
+  }
+
+  h3{
+    color: rgb(69, 69, 69);
+    font-size: 1em;
+  }
+
+  p{
+    font-size: .8em;
+  }
+}
+
+body{
+  overflow: visible;
+}
+
+.other-wrapper{
+  padding-top: 20%;
+}
+
+
+
+#banner{
+  .row .text-container{
+    h1{
+      font-size: 3.5em;
+    }
+
+    h2{
+      font-size: 2em;
+    }
+  }
+}
+
+#sub-nav{
+
+  .columns{
+    padding: 0;
+  }
+
+  ul li a{
+    font-size: 2em;
+    padding: 25px 0;
+  }
+}
+
+#intro{
+
+  background-position-x: 17%;
+
+  .text-container{
+    text-align: center;
+    margin-top: 500px;
+
+    h1{
+      font-size: 28px;
+    }
+
+    p{
+      font-size: .8em;
+    }
+  }
+}
+
+#schedule table tr td{
+
+  padding: 10px;
+
+  a{
+    font-size: .9em;
+  }
+}
+
+#committee {
+
+  .quote{
+    font-size: 1.2em;
+    padding: 20px 0;
+
+  }
+
+}
+
+#footer h1{
+  font-size: 3em;
+  padding: 20px 0;
+}
+
+.infobox{
+  padding: 10px 15px;
+
+  h4{
+    font-size: .9em;
+  }
+
+  p{
+    font-size: .8em;
+  }
+}
+
+.title2{
+  font-size: 1.4em;
+  border: 3px solid black;
+  padding: 25px 0;
+  @include border-radius(7px);
+}
+
+
+.other-row{
+
+  h1{
+    margin: 40px 0 20px 0;
+  }
+
+  p{
+    font-size: medium;
+  }
+}
+
+
+.image-container{
+  padding: 15px;
+  background: transparentize(#000000,.3);
+
+  .team-text{
+    position: static;
+    padding: 0;
+    background: none;
+
+    h1{
+      font-size: xx-large;
+    }
+
+    p{
+      font-size: small;
+    }
+  }
+}
+
+.team-member-row{
+  h1{
+    font-size: 2em;
+  }
+}
+
+.rules-container ul{
+  padding: 20px;
+
+  li{
+    font-size: .8em;
+    padding: 5px 0;
+  }
+}
