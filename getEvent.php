@@ -13,8 +13,9 @@ include 'connection.php';
 if(checkIfFieldSet('id')){
     $id = $_REQUEST['id'];
 
-    $sql = "Select events.id, events.name, events.description, type.name as type, events.image_small, events.image_large
-        from events,type WHERE events.type = type.id AND events.id='$id'";
+    $sql = "Select events.id, events.name, events.description, type.name as type,
+            events.image_small, events.image_large, events.image_mobile
+            from events,type WHERE events.type = type.id AND events.id='$id'";
 
     $event = retrieveData($sql);
 

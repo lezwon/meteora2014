@@ -34,28 +34,6 @@
         <option name="myItemId" value="MySQL - meteora@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="meteora" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - meteora@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="meteora" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="events" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -63,38 +41,153 @@
     <favorites_list name="Meteora 2014" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.48276" vertical-offset="12866" max-vertical-offset="13580">
-              <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4992928" vertical-offset="2967" max-vertical-offset="4100">
-              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="1900">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5986842">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.48276" vertical-offset="12866" max-vertical-offset="13580">
+                  <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="reference.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/reference.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-9.068966" vertical-offset="1877" max-vertical-offset="3820">
+                  <caret line="107" column="81" selection-start-line="107" selection-start-column="81" selection-end-line="107" selection-end-column="81" />
+                  <folding>
+                    <marker date="1414157485485" expanded="true" signature="1896:2112" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2199:2535" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2216:2520" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2622:4166" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2658:4131" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2782:3323" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="2872:3133" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="3197:3299" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="3393:4086" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="3441:4063" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="3470:3719" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4341:6136" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4389:6098" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4433:6055" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4481:4754" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4799:5752" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4841:5725" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4899:5384" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="4942:5349" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="5442:5694" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="5800:6032" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="6654:7016" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="6675:6968" placeholder="{...}" />
+                    <marker date="1414157485485" expanded="true" signature="7683:8635" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="7710:8331" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="7753:8316" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="7833:8297" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="8358:8624" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="8416:8609" placeholder="..." />
+                    <marker date="1414157485485" expanded="true" signature="8463:8590" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-12.172414" vertical-offset="2967" max-vertical-offset="4100">
+                  <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="getEvent.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/getEvent.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-4.137931" vertical-offset="20" max-vertical-offset="460">
+                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                  <folding>
+                    <marker date="1414157485553" expanded="true" signature="253:471" placeholder="Select event..events..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="events.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/events.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-24.62069" vertical-offset="1086" max-vertical-offset="2080">
+                  <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+                  <folding>
+                    <marker date="1414156077909" expanded="true" signature="154:209" placeholder="select id, n..events..." />
+                    <marker date="1414156077909" expanded="true" signature="353:408" placeholder="select id, n..events..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2120">
+                  <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="seeder.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/seeder.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-5.9310346" vertical-offset="408" max-vertical-offset="1120">
+                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding>
+                    <marker date="1414157572799" expanded="true" signature="1015:1128" placeholder="insert into ..." />
+                    <marker date="1414157572799" expanded="true" signature="1324:1490" placeholder="insert into ..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="admin_events.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/admin_events.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.9705882" vertical-offset="4769" max-vertical-offset="6780">
+                  <caret line="255" column="78" selection-start-line="255" selection-start-column="78" selection-end-line="255" selection-end-column="78" />
+                  <folding>
+                    <marker date="1414157594524" expanded="true" signature="358:524" placeholder="insert into ..." />
+                    <marker date="1414157594524" expanded="true" signature="2540:2607" placeholder="select image..events..." />
+                    <marker date="1414157594524" expanded="true" signature="2540:2617" placeholder="select image..events..." />
+                    <marker date="1414157594524" expanded="true" signature="2986:3025" placeholder="delete from ..." />
+                    <marker date="1414157594524" expanded="true" signature="3309:3365" placeholder="select image..events..." />
+                    <marker date="1414157594524" expanded="true" signature="3734:3752" placeholder="delete from ..." />
+                    <marker date="1414157594524" expanded="true" signature="4109:4283" placeholder="Select event..events..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="HTML Fragment (reference.php:4186).html" pinned="false" current-in-tab="true">
+            <entry file="mock:///HTML Fragment (reference.php:4186).html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6946565" vertical-offset="249" max-vertical-offset="880">
+                  <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -171,6 +264,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meteora2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meteora2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -195,6 +302,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Meteora2014\js" />
       <recent name="C:\xampp\htdocs\Meteora2014\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -272,10 +380,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1448" height="880" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32472825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32368422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20171674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -616,55 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1140">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <marker date="1414142002549" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1414142002549" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin_events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2161" max-vertical-offset="6340">
-          <caret line="125" column="2" selection-start-line="125" selection-start-column="2" selection-end-line="125" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <marker date="1414140401303" expanded="true" signature="-1:-1" placeholder="insert into ..." />
-            <marker date="1414140401303" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1414140401303" expanded="true" signature="-1:-1" placeholder="select image..events..." />
-            <marker date="1414140401303" expanded="true" signature="-1:-1" placeholder="delete from ..." />
-            <marker date="1414140401303" expanded="true" signature="-1:-1" placeholder="Select event..events..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="540">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="false" />
-            <marker date="1414145846498" expanded="true" signature="-1:-1" placeholder="Select event..events..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/events.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-53.103447" vertical-offset="0" max-vertical-offset="2080">
-          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-          <folding>
-            <marker date="1414150425592" expanded="true" signature="-1:-1" placeholder="select id, n..events..." />
-            <marker date="1414150425592" expanded="true" signature="-1:-1" placeholder="select id, n..events..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/fd74267e/557c1d32-f85f-4558-b88a-ee68195abebb/meteora..type">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -676,41 +735,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reference.php">
+    <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.896553" vertical-offset="900" max-vertical-offset="3700">
-          <caret line="113" column="35" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="35" />
-          <folding>
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1414151208072" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-12.172414" vertical-offset="2967" max-vertical-offset="4100">
+          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,19 +751,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.62069" vertical-offset="1086" max-vertical-offset="2080">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <marker date="1414156077909" expanded="true" signature="154:209" placeholder="select id, n..events..." />
+            <marker date="1414156077909" expanded="true" signature="353:408" placeholder="select id, n..events..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.068966" vertical-offset="1877" max-vertical-offset="3820">
+          <caret line="107" column="81" selection-start-line="107" selection-start-column="81" selection-end-line="107" selection-end-column="81" />
+          <folding>
+            <marker date="1414157485485" expanded="true" signature="1896:2112" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2199:2535" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2216:2520" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2622:4166" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2658:4131" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2782:3323" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="2872:3133" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="3197:3299" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="3393:4086" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="3441:4063" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="3470:3719" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4341:6136" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4389:6098" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4433:6055" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4481:4754" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4799:5752" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4841:5725" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4899:5384" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="4942:5349" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="5442:5694" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="5800:6032" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="6654:7016" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="6675:6968" placeholder="{...}" />
+            <marker date="1414157485485" expanded="true" signature="7683:8635" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="7710:8331" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="7753:8316" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="7833:8297" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="8358:8624" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="8416:8609" placeholder="..." />
+            <marker date="1414157485485" expanded="true" signature="8463:8590" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931" vertical-offset="20" max-vertical-offset="460">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1414157485553" expanded="true" signature="253:471" placeholder="Select event..events..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="1900">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2120">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
+    <entry file="file://$PROJECT_DIR$/seeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4992928" vertical-offset="2967" max-vertical-offset="4100">
-          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="-5.9310346" vertical-offset="408" max-vertical-offset="1120">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1414157572799" expanded="true" signature="1015:1128" placeholder="insert into ..." />
+            <marker date="1414157572799" expanded="true" signature="1324:1490" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9705882" vertical-offset="4769" max-vertical-offset="6780">
+          <caret line="255" column="78" selection-start-line="255" selection-start-column="78" selection-end-line="255" selection-end-column="78" />
+          <folding>
+            <marker date="1414157594524" expanded="true" signature="358:524" placeholder="insert into ..." />
+            <marker date="1414157594524" expanded="true" signature="2540:2607" placeholder="select image..events..." />
+            <marker date="1414157594524" expanded="true" signature="2540:2617" placeholder="select image..events..." />
+            <marker date="1414157594524" expanded="true" signature="2986:3025" placeholder="delete from ..." />
+            <marker date="1414157594524" expanded="true" signature="3309:3365" placeholder="select image..events..." />
+            <marker date="1414157594524" expanded="true" signature="3734:3752" placeholder="delete from ..." />
+            <marker date="1414157594524" expanded="true" signature="4109:4283" placeholder="Select event..events..." />
+          </folding>
         </state>
       </provider>
     </entry>

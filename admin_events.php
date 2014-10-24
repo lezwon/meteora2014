@@ -15,9 +15,10 @@ $alert = null;
 
 //###########################    ADD Event      #############################
 
-function insertEvent($name,$description,$type,$image_small,$image_large){
+function insertEvent($name,$description,$type,$image_small,$image_large,$image_mobile){
     global $alert;
-    $sql = "insert into events (name, description, type, image_small,image_large) VALUES ('$name','$description',$type,'$image_small','$image_large')";
+    $sql = "insert into events (name, description, type, image_small,image_large,image_mobile)
+VALUES ('$name','$description',$type,'$image_small','$image_large','$image_mobile')";
     if(executeCommand($sql))
         $alert =  "The Record was added successfully";
     else
@@ -32,14 +33,18 @@ if(checkIfFieldSet(['name','description','type'])
     $type = $_REQUEST['type'];
     $image_small = $_FILES['image_small'];
     $image_large = $_FILES['image_large'];
+    $image_mobile = $_FILES['image_mobile'];
 
     $target_base_dir = "uploads/events/";
     $target_dir_small = $target_base_dir ."small/". basename( $image_small["name"]);
     $target_dir_large = $target_base_dir ."large/". basename( $image_large["name"]);
+    $target_dir_mobile = $target_base_dir ."mobile/". basename( $image_mobile["name"]);
     $uploadOk=1;
 
 // Check if file already exists
-    if (file_exists($target_dir_small) || file_exists($target_dir_large)) {
+    if (file_exists($target_dir_small) || file_exists($target_dir_large)
+        || file_exists($target_dir_mobile)) {
+
         $alert =  "Sorry, file already exists.";
         $uploadOk = 0;
     }
@@ -50,8 +55,11 @@ if(checkIfFieldSet(['name','description','type'])
         $alert =  "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
     } else {
-        if (move_uploaded_file($image_small["tmp_name"], $target_dir_small)
-            && move_uploaded_file($image_large["tmp_name"], $target_dir_large)) {
+        if (
+            move_uploaded_file($image_small["tmp_name"], $target_dir_small) &&
+            move_uploaded_file($image_large["tmp_name"], $target_dir_large) &&
+            move_uploaded_file($image_mobile["tmp_name"], $target_dir_mobile)
+        ) {
 
 //            $alert =  "The file ". basename( $image["name"]). " has been uploaded.";
         } else {
@@ -61,7 +69,7 @@ if(checkIfFieldSet(['name','description','type'])
     }
 
     if($uploadOk){
-        insertEvent($name,$description,$type,$target_dir_small,$target_dir_large);
+        insertEvent($name,$description,$type,$target_dir_small,$target_dir_large,$target_dir_mobile);
     }
 
 }
@@ -74,9 +82,18 @@ else
 if(checkIfFieldSet('delete')){
     $delete = $_REQUEST['delete'];
 
-    /*    $query = "select i_image from items where i_id = '$delete'";
-        $filepath = retrieveData($query);
-        unlink($filepath[0][0]);*/
+    $query = "select image_small,image_large, image_mobile from events where id = '$delete'";
+    $filepath = retrieveData($query);
+
+    foreach($filepath as $arr=>$row){
+        if(file_exists($row['image_small']) || file_exists($row['image_large'])
+            ||  file_exists($row['image_mobile'])) {
+
+            unlink($row['image_small']);
+            unlink($row['image_large']);
+            unlink($row['image_mobile']);
+        }
+    }
 
     $query = "delete from events where id = '$delete'";
 
@@ -92,13 +109,16 @@ if(checkIfFieldSet('delete')){
 if(checkIfFieldSet('deleteAll')){
     $delete = $_REQUEST['deleteAll'];
 
-    $query = "select image_small,image_large from events";
+    $query = "select image_small,image_large, image_mobile from events";
     $filepath = retrieveData($query);
 
     foreach($filepath as $arr=>$row){
-        if(file_exists($row['image_small'])   ||  file_exists($row['image_large'])) {
+        if(file_exists($row['image_small']) || file_exists($row['image_large'])
+            ||  file_exists($row['image_mobile'])) {
+
             unlink($row['image_small']);
             unlink($row['image_large']);
+            unlink($row['image_mobile']);
         }
     }
 
@@ -119,7 +139,8 @@ if(checkIfFieldSet('deleteAll')){
 $sql = "DESC events";
 $thead = retrieveData($sql);
 
-$sql = "Select events.id, events.name, events.description, type.name as type, events.image_small, events.image_large
+$sql = "Select events.id, events.name, events.description,
+type.name as type, events.image_small, events.image_large, events.image_mobile
 from events,type WHERE events.type = type.id";
 $tbody = retrieveData($sql);
 
@@ -166,10 +187,11 @@ $tbody = retrieveData($sql);
                         <tr>
                             <td><?php echo $row['id'] ?></td>
                             <td><?php echo $row['name'] ?></td>
-                            <td><?php echo $row['description'] ?></td>
                             <td><?php echo $row['type'] ?></td>
+                            <td><?php echo $row['description'] ?></td>
                             <td><img src="<?php echo $row['image_small'] ?>" alt=""/></td>
                             <td><img src="<?php echo $row['image_large'] ?>" alt=""/></td>
+                            <td><img src="<?php echo $row['image_mobile'] ?>" alt=""/></td>
                             <td><button class="btn btn-danger btn-sm btn-delete" data-toggle="modal"
                                         data-target="#deleteModal" data-id="<?php echo $row['id']?>">Delete</button></td>
                         </tr>
@@ -221,13 +243,18 @@ $tbody = retrieveData($sql);
                             </fieldset>
                             
                             <div class="form-group">
-                                <label for="image_small">Small Image (350x250)</label>
+                                <label for="image_small">Small Image (350x270)</label>
                                 <input type="file" name="image_small" class="form-control" id="image_small" required="">
                             </div>
 
                             <div class="form-group">
                                 <label for="image_large">Large Image (700x400)</label>
                                 <input type="file" name="image_large" class="form-control" id="image_large" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="image_large">Mobile Image (350x450)</label>
+                                <input type="file" name="image_mobile" class="form-control" id="image_mobile" required="">
                             </div>
                         </div>
                     </div>

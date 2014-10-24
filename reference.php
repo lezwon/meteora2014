@@ -100,7 +100,13 @@ $eventModal = '
                     <div class="modal-body">
                         <div class="row">
                             <div class="large-5 columns">
-                                <img src="" alt="" id="event-image"/>
+
+                                <picture>
+                                    <!--<source media="(min-width: 64em)" src="high-res.jpg">-->
+                                    <source media="(min-width: 37.5em)" id="event-image-large" srcset="">
+                                    <source id="event-image-mobile" srcset="">
+                                    <img src="" alt="" id="event-image-default"/>
+                                </picture>
                             </div>
                             <div class="large-7 columns">
                                 <h1 id="event-name"></h1>

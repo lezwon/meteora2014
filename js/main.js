@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+    //$(document).foundation();
+
     //Sidr
     $('#simple-menu').sidr();
 
@@ -44,17 +46,26 @@ $(document).ready(function(){
         var name = $("#event-name");
         var description = $("#event-description");
         var type = $("#event-type");
-        var image = $("#event-image");
+
+        var imageDefault = $("#event-image-default");
+        var imageMobile = $("#event-image-mobile");
+        var imageLarge = $("#event-image-large");
 
         console.log(id);
 
         $.post('getEvent.php',{   id:id   },function(data){
             data = jQuery.parseJSON(data);
+            console.log(data);
+
             name.text(data.name);
             description.text(data.description);
             type.text(data.type);
             /** @namespace data.image_large */
-            image.attr('src',data.image_large);
+            //image.attr('src',data.image_large);
+            /** @namespace data.image_mobile */
+            imageDefault.attr('src', data.image_large);
+            imageLarge.attr('srcset', data.image_large);
+            imageMobile.attr('srcset', data.image_mobile);
 
             $('#event-modal').modal();
         });
