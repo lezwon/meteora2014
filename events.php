@@ -1,4 +1,16 @@
-<?php include 'reference.php'; ?>
+<?php
+    include 'reference.php';
+    include 'connection.php';
+
+    ####################    RETREIVE ONSTAGE EVENTS    ####################
+    $sql = "select id, name, image_small from events WHERE type = 1"; // 1 for onstage
+    $onstage = retrieveData($sql);
+
+    ####################    RETREIVE ONSTAGE EVENTS    ####################
+    $sql = "select id, name, image_small from events WHERE type = 2"; // 2 for offstage
+    $offstage = retrieveData($sql);
+
+?>
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -27,40 +39,18 @@
                     <div class="row">
                         <div class="small-12 columns">
                             <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-1 event-grid">
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
 
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
+                                <?php foreach($onstage as $arrray=>$row){ ?>
+                                    <li>
+                                        <a href="" data-id="<?php echo $row['id'] ?>">
+                                            <img src="<?php echo $row['image_small'] ?>" alt=""/>
+                                            <div class="event-name-container">
+                                                <p><?php echo $row['name'] ?></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                <?php } ?>
 
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,40 +67,16 @@
                     <div class="row">
                         <div class="small-12 columns">
                             <ul class="large-block-grid-5 medium-block-grid-3 small-block-grid-1 event-grid">
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
-
-                                <li><a href="">
-                                    <img src="http://placehold.it/330x250" alt=""/>
-                                    <div class="event-name-container">
-                                        <span>Lorem ipsum dolor.</span>
-                                    </div>
-                                </a></li>
+                                <?php foreach($offstage as $arrray=>$row){ ?>
+                                    <li>
+                                        <a href="" data-id="<?php echo $row['id'] ?>">
+                                            <img src="<?php echo $row['image_small'] ?>" alt=""/>
+                                            <div class="event-name-container">
+                                                <p><?php echo $row['name'] ?></p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                <?php } ?>
                             </ul>
                         </div>
                     </div>

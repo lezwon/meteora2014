@@ -10,7 +10,7 @@ include 'connection.php';
 include 'reference.php';
 
 
-
+$alert = null;
 
 
 //###########################    ADD MEMBER      #############################
@@ -24,33 +24,33 @@ function insertMember($name,$phone=null,$description=null,$post,$image){
         echo "Failed";
 }
 
-if(checkIfSet('name') && isset($_FILES['image']) && checkIfSet('post')){
+if(checkIfFieldSet(['name','post']) && checkIfFileSet('image')){
     $name = $_REQUEST['name'];
     $phone = $_REQUEST['phone'];
     $description = $_REQUEST['description'];
     $post = $_REQUEST['post'];
     $image = $_FILES['image'];
 
-    $target_dir = "uploads/";
+    $target_dir = "uploads/members";
     $target_dir = $target_dir . basename( $image["name"]);
     $uploadOk=1;
 
 // Check if file already exists
-    if (file_exists($target_dir . $image["name"])) {
-        echo "Sorry, file already exists.";
+    if (file_exists($target_dir)) {
+        $alert =  "Sorry, file already exists.";
         $uploadOk = 0;
     }
 
 
 // Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 0) {
-        echo "Sorry, your file was not uploaded.";
+        $alert =  "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
     } else {
         if (move_uploaded_file($image["tmp_name"], $target_dir)) {
 //            echo "The file ". basename( $image["name"]). " has been uploaded.";
         } else {
-            echo "Sorry, there was an error uploading your file.";
+            $alert =  "Sorry, there was an error uploading your file.";
             $uploadOk = 0;
         }
     }
@@ -64,7 +64,7 @@ if(checkIfSet('name') && isset($_FILES['image']) && checkIfSet('post')){
 
 //###########################    DELETE      #############################
 
-if(checkIfSet('delete')){
+if(checkIfFieldSet('delete')){
     $delete = $_REQUEST['delete'];
 
 /*    $query = "select i_image from items where i_id = '$delete'";
@@ -82,7 +82,7 @@ if(checkIfSet('delete')){
 
 //###########################    DELETE ALL      #############################
 
-if(checkIfSet('deleteAll')){
+if(checkIfFieldSet('deleteAll')){
     $delete = $_REQUEST['deleteAll'];
 
     $query = "select image from team";
@@ -142,7 +142,7 @@ $tbody = retrieveData($sql);
     <div class="row">
         <div class="small-12 columns">
             <div class="table-responsive">
-                <table class=" table add-members table-bordered">
+                <table class=" table add-records table-bordered">
                     <thead>
                         <tr>
                             <?php foreach($thead as $array=>$row){ ?>
@@ -203,7 +203,7 @@ $tbody = retrieveData($sql);
                                 <input type="text" class="form-control" id="post" name="post" required=""/>
                             </div>
                             <div class="form-group">
-                                <label for="image">Image</label>
+                                <label for="image">Image (120x120)</label>
                                 <input type="file" name="image" class="form-control" id="image" required="">
                             </div>
                         </div>

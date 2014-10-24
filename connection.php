@@ -1,12 +1,44 @@
 <?php
 
 
-function checkIfSet($item){
-    if(isset($_REQUEST[$item]) && !empty($_REQUEST[$item]))
-        return true;
-    else
-        return false;
+function checkIfFieldSet($item){
+
+    if(is_array($item)){
+        foreach($item as $field){
+            if(isset($_REQUEST[$field]) && !empty($_REQUEST[$field]))
+                continue;
+            else
+                return false;
+        }
+    }else{
+        if(isset($_REQUEST[$item]) && !empty($_REQUEST[$item]))
+            return true;
+        else
+            return false;
+    }
+
+    return true;
 }
+
+function checkIfFileSet($item){
+
+    if(is_array($item)){
+        foreach($item as $field){
+            if(isset($_FILES[$field]) && !empty($_FILES[$field]))
+                continue;
+            else
+                return false;
+        }
+    }else{
+        if(isset($_FILES[$item]) && !empty($_FILES[$item]))
+            return true;
+        else
+            return false;
+    }
+
+    return true;
+}
+
 
 
 

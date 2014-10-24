@@ -4,8 +4,9 @@
 
 .title{
   max-width: 330px;
-  font-size: 2em;
+  font-size: 2.2em;
   padding: 20px 10px;
+  width: 90%;
 }
 
 
@@ -160,11 +161,39 @@ body{
   }
 }
 
-.rules-container ul{
-  padding: 20px;
+.rules-container {
 
-  li{
-    font-size: .8em;
-    padding: 5px 0;
+  .title{
+    font-size: 1.9em;
+    width: 100%;
   }
+
+  ul{
+    padding: 20px;
+
+    li{
+      font-size: .8em;
+      padding: 5px 0;
+    }
+  }
+}
+
+#event-modal{
+  .modal-body{
+    padding: 10px;
+
+    img{
+
+    }
+
+    #event-name{
+      font-size: 1.3em;
+    }
+
+    #event-type{
+
+    }
+
+  }
+
 }

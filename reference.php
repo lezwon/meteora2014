@@ -95,21 +95,18 @@ $eventModal = '
 
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="event-modalLabel">Modal title</h4>
+                        <h4 class="modal-title" id="event-modalLabel">Event Window</h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
-                            <div class="large-5 columns"><img src="http://placehold.it/500x300" alt=""/></div>
+                            <div class="large-5 columns">
+                                <img src="" alt="" id="event-image"/>
+                            </div>
                             <div class="large-7 columns">
-                                <h1>Lorem ipsum.</h1>
-                                <h3>Lorem ipsum dolor sit amet.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, dolorum
-                                    ducimus eaque harum itaque nisi quasi tempore vel. Culpa cumque delectus
-                                    deleniti dolorum earum, eius enim eum fugiat fugit illo itaque laborum
-                                    magnam minus molestiae mollitia nemo numquam perspiciatis porro quaerat, qui
-                                    quisquam quo recusandae reprehenderit repudiandae saepe voluptas
-                                    voluptatem.
-                                </p>
+                                <h1 id="event-name"></h1>
+                                <h3 id="event-type"></h3>
+                                <hr/>
+                                <p id="event-description"></p>
                             </div>
                         </div>
                     </div>

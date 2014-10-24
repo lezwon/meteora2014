@@ -23,7 +23,9 @@ $(document).ready(function() {
             viewerDisplayLogo: true,
             thumbnailLazyLoad: true,
             photoSorting: 'random',
-            touchAnimation: true
+            touchAnimation: true,
+            touchAutoOpenDelay: 0
+
         });
     }
 
@@ -32,12 +34,34 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    var tableLinks = $('#schedule td a, .event-grid a');
-    tableLinks.click(function(e){
+    //Event Modal
+    var eventLink = $('#schedule td a, .event-grid a');
+
+    eventLink.click(function(e){
         e.preventDefault();
-        $('#event-modal').modal();
+
+        var id = $(this).attr('data-id');
+        var name = $("#event-name");
+        var description = $("#event-description");
+        var type = $("#event-type");
+        var image = $("#event-image");
+
+        console.log(id);
+
+        $.post('getEvent.php',{   id:id   },function(data){
+            data = jQuery.parseJSON(data);
+            name.text(data.name);
+            description.text(data.description);
+            type.text(data.type);
+            /** @namespace data.image_large */
+            image.attr('src',data.image_large);
+
+            $('#event-modal').modal();
+        });
     });
 
+
+    //Scroll to
     $(function() {
         $('a[href*=#]:not([href=#])').click(function(e) {
             e.preventDefault();
@@ -55,6 +79,7 @@ $(document).ready(function(){
         });
     });
 
+    //delete id
     $(".btn-delete").click(function(){
         var id = $(this).attr('data-id');
         console.log(id);
