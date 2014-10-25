@@ -15,11 +15,14 @@
 
 @mixin table{
   table{
+    text-transform: uppercase;
+
     tr{
       td, th{
         color: grey;
-        padding: 15px 5px;
+        padding: 12px 5px;
         font-size: .9em;
+
 
         a{
           display: block;
@@ -34,9 +37,12 @@
         }
       }
     }
+
+    th{
+      font-size: 1em;
+    }
   }
 }
-
 
 @mixin links($font-size : 14px, $color : white){
 

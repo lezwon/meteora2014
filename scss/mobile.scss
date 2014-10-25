@@ -80,14 +80,28 @@ body{
   }
 }
 
-#schedule table tr td{
 
-  padding: 10px;
+#schedule {
 
-  a{
-    font-size: .9em;
+  .tab-nav{
+    a{
+      padding: 10px 15px !important;
+      margin-right: 20px !important;
+      font-size: 1.8em !important;
+    }
+  }
+
+  table tr td{
+
+    padding: 15px 10px;
+
+    a{
+      font-size: .9em;
+    }
   }
 }
+
+
 
 #committee {
 

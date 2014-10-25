@@ -40,7 +40,13 @@
         <div class="row">
             <div class="small-12 columns">
                 <div class="image-container">
-                    <img src="img/SGU.jpg" alt=""/>
+
+                    <picture>
+                        <!--<source media="(min-width: 64em)" src="high-res.jpg">-->
+                        <source media="(min-width: 37.5em)" id="event-image-large" srcset="img/SGU.jpg">
+                        <source id="event-image-mobile" srcset="">
+                        <img src="img/SGU.jpg" alt=""/>
+                    </picture>
                     <div class="team-text text-center">
                         <h1 >The Meteora 2014 Team</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut culpa debitis ex iste iusto

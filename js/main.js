@@ -33,11 +33,12 @@ $(document).ready(function() {
 
 
 
+
 });
 
 $(document).ready(function(){
     //Event Modal
-    var eventLink = $('#schedule td a, .event-grid a');
+    var eventLink = $('.event-grid a');
 
     eventLink.click(function(e){
         e.preventDefault();
@@ -74,7 +75,7 @@ $(document).ready(function(){
 
     //Scroll to
     $(function() {
-        $('a[href*=#]:not([href=#])').click(function(e) {
+        $('a[href*=#]:not([href=#],[class*="no-scroll"])').click(function(e) {
             e.preventDefault();
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -96,5 +97,17 @@ $(document).ready(function(){
         console.log(id);
         $('#input-delete').attr('value',id);
     });
+
+    //schedule tabs
+
+    $(".tab-link").click(function(e){
+
+        e.preventDefault();
+        $(".tab-link").removeClass('active');
+        $('#schedule').find('.table-responsive').hide();
+        $(this).addClass('active');
+        var showTable = $(this).attr('href');
+        $(showTable).parent().show();
+    })
 
 });

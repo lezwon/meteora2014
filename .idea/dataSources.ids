@@ -17,6 +17,21 @@
       <column name="image_mobile" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="events_ibfk_1" columns="type" ref-table="type" ref-schema="" ref-catalog="meteora" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="schedule_ibfk_1" table="schedule" schema="" catalog="meteora" columns="onstage"/>
+      <exported-key name="schedule_ibfk_2" table="schedule" schema="" catalog="meteora" columns="offstage"/>
+      <exported-key name="schedule_ibfk_3" table="schedule" schema="" catalog="meteora" columns="ground"/>
+    </table>
+    <table name="schedule" schema="" catalog="meteora" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="day" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="time" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="onstage" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="offstage" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="ground" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="schedule_ibfk_1" columns="onstage" ref-table="events" ref-schema="" ref-catalog="meteora" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="schedule_ibfk_2" columns="offstage" ref-table="events" ref-schema="" ref-catalog="meteora" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="schedule_ibfk_3" columns="ground" ref-table="events" ref-schema="" ref-catalog="meteora" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
     </table>
     <table name="team" schema="" catalog="meteora" type="TABLE">
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>

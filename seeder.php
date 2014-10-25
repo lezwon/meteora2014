@@ -25,7 +25,7 @@ for($i=0;$i<10;$i++){
 for($i=0;$i<10;$i++){
     $name = $faker->sentence($nbWords=3);
     $description = $faker->sentence($nbWords=40);
-    $type = $faker->numberBetween(1,2);
+    $type = $faker->numberBetween(1,3);
     $image_small = $faker->imageUrl(350,270,'technics');
     $image_large = $faker->imageUrl(650,450,'technics');
     $image_mobile = $faker->imageUrl(350,450,'technics');

@@ -17,6 +17,6 @@
     <orderEntry type="library" name="sass-stdlib" level="application" />
     <orderEntry type="library" name="jquery.nanogallery" level="application" />
     <orderEntry type="library" name="compass-library" level="project" />
+    <orderEntry type="library" name="embed" level="application" />
   </component>
 </module>
-

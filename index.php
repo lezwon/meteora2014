@@ -8,9 +8,10 @@
     <head>
 
         <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+
         <?php echo $head; ?>
     </head>
-    </head>
+
     <body>
 
         <?php echo $bodyTop; ?>
@@ -69,78 +70,151 @@
                     <div class="small-12 .columns">
                         <h1 class="title">Schedule</h1>
 
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                <tr>
-                                    <th>Lorem.</th>
-                                    <th>Assumenda?</th>
-                                    <th>Commodi.</th>
-                                    <th>Reprehenderit.</th>
-                                    <th>Itaque?</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Autem, modi.</a></td>
-                                    <td><a href="">Quam, rem!</a></td>
-                                    <td><a href="">Alias, sed!</a></td>
-                                    <td><a href="">Incidunt, quasi?</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Fugiat, voluptates!</a></td>
-                                    <td><a href="">Adipisci, libero!</a></td>
-                                    <td><a href="">Nulla, pariatur.</a></td>
-                                    <td><a href="">Nesciunt, nihil.</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Fugiat, magni!</a></td>
-                                    <td><a href="">Aspernatur, in!</a></td>
-                                    <td><a href="">Autem, rerum?</a></td>
-                                    <td><a href="">Eaque, vero.</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Deserunt, tempora!</a></td>
-                                    <td><a href="">Adipisci, vel.</a></td>
-                                    <td><a href="">Eum, sapiente.</a></td>
-                                    <td><a href="">Tenetur, totam.</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Blanditiis, nulla!</a></td>
-                                    <td><a href="">Alias, sunt.</a></td>
-                                    <td><a href="">Deleniti, veritatis?</a></td>
-                                    <td><a href="">Minima, nesciunt.</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Provident, quasi?</a></td>
-                                    <td><a href="">Doloribus, sunt.</a></td>
-                                    <td><a href="">Consequuntur, magnam!</a></td>
-                                    <td><a href="">Ab, harum.</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Enim, nesciunt.</a></td>
-                                    <td><a href="">Commodi, quibusdam!</a></td>
-                                    <td><a href="">Enim, quas.</a></td>
-                                    <td><a href="">Exercitationem, modi?</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="">Lorem ipsum.</a></td>
-                                    <td><a href="">Nemo, temporibus.</a></td>
-                                    <td><a href="">Pariatur, possimus.</a></td>
-                                    <td><a href="">Blanditiis, nobis!</a></td>
-                                    <td><a href="">Consequatur, eaque.</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <ul class="tab-nav">
+                                <li><a href="#day-1" class="tab-link no-scroll active">Day 1</a></li>
+                                <li><a href="#day-2" class="tab-link no-scroll">Day 2</a></li>
+                            </ul>
 
+                        <div Class="table-container">
+                            <div Class="table-responsive">
+
+                                <table Class="table" Id="day-1">
+                                    <thead>
+                                        <tr>
+                                            <th> Time           </th>
+                                            <th> On Stage       </th>
+                                            <th> Off Stage      </th>
+                                            <th> Ground Event   </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+
+                                        <tr Class="break">
+                                            <td>8:30 - 9:00    </td>
+                                            <td Colspan="3">Registration   </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>9:00 - 11:00  </td>
+                                            <td></td>
+                                            <td>fest-o-mania  </td>
+                                            <td></td>
+                                        </tr>
+
+                                        <tr Class="break">
+                                            <td> 11:00 - 12:00  </td>
+                                            <td Colspan="3" > Inauguration  </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>   12:00 - 1:00  </td>
+                                            <td>   Nation Revelation  </td>
+                                            <td>   Smart Alecs Elims  </td>
+                                            <td>   </td>
+                                        </tr>
+
+                                        <tr Class="break">
+                                            <td>   1:00 - 2:00  </td>
+                                            <td Colspan="3" > Lunch Break  </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 2:00 - 3:00  </td>
+                                            <td> Iron Man   </td>
+                                            <td> Get Grilled Elims  </td>
+                                            <td> Tie Breaker  </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 3:00 - 4:00  </td>
+                                            <td> Lights, Camers &amp; Silence </td>
+                                            <td> Fruity Affair  </td>
+                                            <td> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 4:00 - 5:00  </td>
+                                            <td> Battle Of Bands</td>
+                                            <td> Designing 3d Model</td>
+                                            <td> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td> 5:00 - 6:00</td>
+                                            <td> Fashion Show</td>
+                                            <td> </td>
+                                            <td> </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                            <div Class="table-responsive">
+                                <table Class="table" Id="day-2">
+                                    <thead>
+                                    <tr>
+                                        <th> Time           </th>
+                                        <th> On Stage       </th>
+                                        <th> Off Stage      </th>
+                                        <th> Ground Event   </th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody>
+                                    <tr>
+                                        <td> 9:30 - 10:30</td>
+                                        <td>get    Grilled</td>
+                                        <td>nail    Art</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:30 - 12:30</td>
+                                        <td>smart    Alecs</td>
+                                        <td>shutter    Bug</td>
+                                        <td>logorio</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:30 - 1:30</td>
+                                        <td>comedian    On A Roll</td>
+                                        <td>minute It –to Win</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr Class="break">
+                                        <td> 1:30 - 2:00</td>
+                                        <td Colspan="3" >lunch    Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:00 - 3:00</td>
+                                        <td>beat    The Street</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:30 - 4:00</td>
+                                        <td>mr.&amp;    Ms. Meteora</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:00 - 5:00</td>
+                                        <td>lock    Hop &amp; Drop </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5:00 - 6:00</td>
+                                        <td>prize    Distribution</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,5 +365,6 @@
         <?php echo $eventModal; ?>
 
         <?php echo $scripts; ?>
+
     </body>
 </html>

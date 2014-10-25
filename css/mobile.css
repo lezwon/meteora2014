@@ -72,41 +72,47 @@ body {
   font-size: .8em;
 }
 
-/* line 83, ../scss/mobile.scss */
-#schedule table tr td {
-  padding: 10px;
-}
 /* line 87, ../scss/mobile.scss */
+#schedule .tab-nav a {
+  padding: 10px 15px !important;
+  margin-right: 20px !important;
+  font-size: 1.8em !important;
+}
+/* line 94, ../scss/mobile.scss */
+#schedule table tr td {
+  padding: 15px 10px;
+}
+/* line 98, ../scss/mobile.scss */
 #schedule table tr td a {
   font-size: .9em;
 }
 
-/* line 94, ../scss/mobile.scss */
+/* line 108, ../scss/mobile.scss */
 #committee .quote {
   font-size: 1.2em;
   padding: 20px 0;
 }
 
-/* line 102, ../scss/mobile.scss */
+/* line 116, ../scss/mobile.scss */
 #footer h1 {
   font-size: 3em;
   padding: 20px 0;
 }
 
-/* line 107, ../scss/mobile.scss */
+/* line 121, ../scss/mobile.scss */
 .infobox {
   padding: 10px 15px;
 }
-/* line 110, ../scss/mobile.scss */
+/* line 124, ../scss/mobile.scss */
 .infobox h4 {
   font-size: .9em;
 }
-/* line 114, ../scss/mobile.scss */
+/* line 128, ../scss/mobile.scss */
 .infobox p {
   font-size: .8em;
 }
 
-/* line 119, ../scss/mobile.scss */
+/* line 133, ../scss/mobile.scss */
 .title2 {
   font-size: 1.4em;
   border: 3px solid black;
@@ -116,60 +122,60 @@ body {
   border-radius: 7px;
 }
 
-/* line 129, ../scss/mobile.scss */
+/* line 143, ../scss/mobile.scss */
 .other-row h1 {
   margin: 40px 0 20px 0;
 }
-/* line 133, ../scss/mobile.scss */
+/* line 147, ../scss/mobile.scss */
 .other-row p {
   font-size: medium;
 }
 
-/* line 139, ../scss/mobile.scss */
+/* line 153, ../scss/mobile.scss */
 .image-container {
   padding: 15px;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 143, ../scss/mobile.scss */
+/* line 157, ../scss/mobile.scss */
 .image-container .team-text {
   position: static;
   padding: 0;
   background: none;
 }
-/* line 148, ../scss/mobile.scss */
+/* line 162, ../scss/mobile.scss */
 .image-container .team-text h1 {
   font-size: xx-large;
 }
-/* line 152, ../scss/mobile.scss */
+/* line 166, ../scss/mobile.scss */
 .image-container .team-text p {
   font-size: small;
 }
 
-/* line 159, ../scss/mobile.scss */
+/* line 173, ../scss/mobile.scss */
 .team-member-row h1 {
   font-size: 2em;
 }
 
-/* line 166, ../scss/mobile.scss */
+/* line 180, ../scss/mobile.scss */
 .rules-container .title {
   font-size: 1.9em;
   width: 100%;
 }
-/* line 171, ../scss/mobile.scss */
+/* line 185, ../scss/mobile.scss */
 .rules-container ul {
   padding: 20px;
 }
-/* line 174, ../scss/mobile.scss */
+/* line 188, ../scss/mobile.scss */
 .rules-container ul li {
   font-size: .8em;
   padding: 5px 0;
 }
 
-/* line 182, ../scss/mobile.scss */
+/* line 196, ../scss/mobile.scss */
 #event-modal .modal-body {
   padding: 10px;
 }
-/* line 189, ../scss/mobile.scss */
+/* line 203, ../scss/mobile.scss */
 #event-modal .modal-body #event-name {
   font-size: 1.3em;
 }
