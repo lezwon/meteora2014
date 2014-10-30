@@ -1,6 +1,31 @@
 <?php
 
 
+global $con;
+
+//DEVELOPMENT
+//$host = "localhost";
+//$user = "root";
+//$password = "";
+//$database = "meteora";
+
+
+//PRODUCTION
+$host = "mysql.1freehosting.com";
+$user = "u572493528_bosco";
+$password = "82PJV7fuvL";
+$database = "u572493528_met";
+
+
+$con = mysqli_connect($host, $user, $password, $database);
+
+// Check connection
+if (mysqli_connect_errno())
+{
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+
 function checkIfFieldSet($item){
 
     if(is_array($item)){
@@ -40,24 +65,6 @@ function checkIfFileSet($item){
 }
 
 
-
-
-
-
-global $con;
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "meteora";
-$con = mysqli_connect($host, $user, $password, $database);
-//$con = mysqli_connect("mysql.1freehosting.com","u456392193_rohit","15w60ps","u456392193_gflo");
-// Check connection
-if (mysqli_connect_errno())
-{
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
-}
-
-
 function executeCommand($query){
     global $con;
     $q_run = mysqli_query($con,$query) or die(mysqli_error($con));
@@ -74,7 +81,7 @@ function retrieveData($query){
     global $con;
 
     $q_run = mysqli_query($con,$query) or die(mysqli_error($con));
-    $arr = [];
+    $arr = array();
 
     if($q_run){
         while($row = mysqli_fetch_assoc($q_run)){

@@ -321,7 +321,7 @@ hr {
     linear-gradient(135deg, hsla(78, 99%, 42%, 1) 10%, hsla(78, 99%, 42%, 0) 80%),
     linear-gradient(225deg, hsla(336, 97%, 41%, 1) 10%, hsla(336, 97%, 41%, 0) 80%),
     linear-gradient(315deg, hsla(39, 98%, 41%, 1) 100%, hsla(39, 98%, 41%, 0) 70%);*/
-  background-image: url("http://blog.couponsurfer.com/wp-content/uploads/2013/07/Concert-stock3112.jpg");
+  background-image: url("../img/Concert-stock3112.jpg");
   background-position: center 80%;
   background-size: cover;
 }
@@ -480,9 +480,9 @@ hr {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow: 0px 5px 0 3px 3px 0px grey;
-  -webkit-box-shadow: 0px 5px 0 3px 3px 0px grey;
-  box-shadow: 0px 5px 0 3px 3px 0px grey;
+  -moz-box-shadow: 0 5px 3px 0 gray;
+  -webkit-box-shadow: 0 5px 3px 0 gray;
+  box-shadow: 0 5px 3px 0 gray;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -556,12 +556,11 @@ hr {
 /* line 504, ../scss/main.scss */
 #committee {
   background: url("../img/Bokeh-Wallpaper.jpg");
-  background-size: cover;
   background-position: bottom;
   margin-top: 50px;
-  -moz-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 -5px 15px 0transparentize black, 0.6 #333333;
+  -webkit-box-shadow: 0 -5px 15px 0transparentize black, 0.6 #333333;
+  box-shadow: 0 -5px 15px 0transparentize black, 0.6 #333333;
 }
 /* line 511, ../scss/main.scss */
 #committee h1 {

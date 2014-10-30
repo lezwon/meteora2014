@@ -310,7 +310,7 @@ body{
 
 //  background-image: url("../img/night_music_concert-wallpaper-1920x1200.jpg");
 //  background-image: url("../img/18389-laser-show-at-a-concert-1920x1200-photography-wallpaper.jpg");
-  background-image: url("http://blog.couponsurfer.com/wp-content/uploads/2013/07/Concert-stock3112.jpg");
+  background-image: url("../img/Concert-stock3112.jpg");
   background-position: center 80%;
   background-size: cover;
 
@@ -398,7 +398,7 @@ body{
   background-position-y: 25%;
   min-height: 500px;
   margin-bottom: 50px;
-  @include single-box-shadow(transparentize(black,.3),0,5px,15px,0px);
+  @include single-box-shadow(0,5px,15px,0px,transparentize(black,.3));
 
   h1, p{
     color: darken(#ffffff,10);
@@ -447,7 +447,7 @@ body{
         font-weight: 700;
         text-transform: uppercase;
         @include border-radius(5px);
-        @include single-box-shadow(0 3px 3px 0px grey);
+        @include single-box-shadow(0,5px,3px,0,gray);
         @include transition(all .3s ease);
 
         &:hover{
@@ -503,10 +503,10 @@ body{
 
 #committee{
   background: url("../img/Bokeh-Wallpaper.jpg");
-  background-size: cover;
+//  background-size: cover;
   background-position: bottom;
   margin-top: 50px;
-  @include single-box-shadow(transparentize(black,.6),0,-5px,15px,0);
+  @include single-box-shadow(0,-5px,15px,0transparentize(black,.6));
 
   h1{
     color: #ffffff;

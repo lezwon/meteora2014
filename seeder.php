@@ -22,7 +22,7 @@ for($i=0;$i<10;$i++){
     insertMember($name,$phone,$description,$post,$image);
 }
 
-for($i=0;$i<10;$i++){
+for($i=0;$i<20;$i++){
     $name = $faker->sentence($nbWords=3);
     $description = $faker->sentence($nbWords=40);
     $type = $faker->numberBetween(1,3);

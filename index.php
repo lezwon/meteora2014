@@ -361,9 +361,6 @@
 
         </div>
 
-
-        <?php echo $eventModal; ?>
-
         <?php echo $scripts; ?>
 
     </body>

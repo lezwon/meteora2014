@@ -12,13 +12,14 @@ $head = '
         <link rel="stylesheet" href="css/foundation.min.css"/>
         <link rel="stylesheet" href="bower_components/sidr/stylesheets/jquery.sidr.dark.css"/>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 400px)">
+        <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 500px)">
 
         <!-- SEO -->
         <meta name="author" content="Lezwon Castellino">
         <meta name="description" content="Don Bosco College Presents METEORA 2014. Event ensure
         2 fun filled days of nonstop activities with pulsating sound,dazzling
         moves and back 2 back contests.">
+        <meta name="google-site-verification" content="ai82t3KkJx0RW66gGwiOjW45r_GDjVHTS-UsROCOYoQ" />
 
         <!-- Social: Facebook / Open Graph -->
         <meta property="og:url" content="http://xmeteora.net">
@@ -148,15 +149,16 @@ $scripts = '
 
         <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site"s ID. -->
-        <!--<script>-->
-            <!--(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=-->
-            <!--function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;-->
-            <!--e=o.createElement(i);r=o.getElementsByTagName(i)[0];-->
-            <!--e.src="//www.google-analytics.com/analytics.js";-->
-            <!--r.parentNode.insertBefore(e,r)}(window,document,"script","ga"));-->
-            <!--ga("create","UA-XXXXX-X");ga("send","pageview");-->
-        <!--</script>-->
+        <script>
+          (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+
+          ga("create", "UA-45405314-2", "auto");
+          ga("send", "pageview");
+
+        </script>
 ';
 
 

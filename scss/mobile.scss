@@ -130,11 +130,8 @@ body{
   }
 }
 
-.title2{
-  font-size: 1.4em;
-  border: 3px solid black;
-  padding: 25px 0;
-  @include border-radius(7px);
+.bokeh-bg{
+  background: url("../img/bokeh-bg-small.jpg");
 }
 
 
@@ -190,6 +187,8 @@ body{
       padding: 5px 0;
     }
   }
+
+
 }
 
 #event-modal{
