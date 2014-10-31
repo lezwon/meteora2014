@@ -6,7 +6,7 @@
 
 /* line 10, ../scss/main.scss */
 html, body {
-  height: 100%;
+  height: auto;
 }
 
 /* line 14, ../scss/main.scss */
@@ -550,19 +550,17 @@ hr {
 
 /* line 498, ../scss/main.scss */
 #committee {
-  background: url("../img/Bokeh-Wallpaper.jpg");
-  background-size: contain;
-  background-position: bottom;
+  background: url("../img/Bokeh-Wallpaper.jpg") bottom/cover;
   margin-top: 50px;
   -moz-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 -5px 15px 0 rgba(0, 0, 0, 0.4);
 }
-/* line 505, ../scss/main.scss */
+/* line 503, ../scss/main.scss */
 #committee h1 {
   color: #ffffff;
 }
-/* line 509, ../scss/main.scss */
+/* line 507, ../scss/main.scss */
 #committee .quote {
   font-size: 2.5em;
   font-weight: 700;
@@ -572,7 +570,7 @@ hr {
   text-align: center;
 }
 
-/* line 520, ../scss/main.scss */
+/* line 518, ../scss/main.scss */
 #footer {
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
@@ -581,7 +579,7 @@ hr {
   position: static;
   bottom: 0;
 }
-/* line 528, ../scss/main.scss */
+/* line 526, ../scss/main.scss */
 #footer h1 {
   margin-bottom: 5%;
   font-size: 5em;
@@ -589,11 +587,11 @@ hr {
   text-transform: capitalize;
   color: #ffffff;
 }
-/* line 537, ../scss/main.scss */
+/* line 535, ../scss/main.scss */
 #footer ul li {
   padding: 5px 0;
 }
-/* line 539, ../scss/main.scss */
+/* line 537, ../scss/main.scss */
 #footer ul li a {
   -moz-transition: color 0.3s ease, border 0.3s ease, background 0.3s ease;
   -o-transition: color 0.3s ease, border 0.3s ease, background 0.3s ease;
@@ -612,24 +610,17 @@ hr {
   text-decoration: none;
 }
 
-/* line 546, ../scss/main.scss */
+/* line 544, ../scss/main.scss */
 .bokeh-bg {
   background: url("../img/bokeh-bg.jpg");
-  background-size: cover;
 }
 
-/* line 551, ../scss/main.scss */
-.wrapper {
-  min-height: 100%;
-  height: 100%;
-}
-
-/* line 556, ../scss/main.scss */
+/* line 548, ../scss/main.scss */
 .other-wrapper {
   padding-top: 8%;
 }
 
-/* line 560, ../scss/main.scss */
+/* line 552, ../scss/main.scss */
 .events-container {
   max-width: 1200px;
   padding: 0 15px;
@@ -642,16 +633,16 @@ hr {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 568, ../scss/main.scss */
+/* line 560, ../scss/main.scss */
 .events-container .event-header-row {
   margin-bottom: 1%;
 }
-/* line 571, ../scss/main.scss */
+/* line 563, ../scss/main.scss */
 .events-container .event-header-row hr {
   border-color: #A3A3A3;
   margin: 10px 0;
 }
-/* line 581, ../scss/main.scss */
+/* line 573, ../scss/main.scss */
 .events-container .event-grid li a {
   display: block;
   overflow: hidden;
@@ -666,33 +657,33 @@ hr {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 588, ../scss/main.scss */
+/* line 580, ../scss/main.scss */
 .events-container .event-grid li a .event-name-container {
   padding: 10px;
   height: 60px;
   overflow: hidden;
   text-align: center;
 }
-/* line 595, ../scss/main.scss */
+/* line 587, ../scss/main.scss */
 .events-container .event-grid li a .event-name-container p {
   margin: 0;
   font-weight: 400;
   font-size: .8em;
   color: #4d4d4d;
 }
-/* line 603, ../scss/main.scss */
+/* line 595, ../scss/main.scss */
 .events-container .event-grid li a:hover {
   -moz-box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   -webkit-box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   text-decoration: none;
 }
-/* line 607, ../scss/main.scss */
+/* line 599, ../scss/main.scss */
 .events-container .event-grid li a:hover h4 {
   color: #000000;
 }
 
-/* line 620, ../scss/main.scss */
+/* line 612, ../scss/main.scss */
 .image-container .team-text {
   position: absolute;
   left: 0;
@@ -705,31 +696,31 @@ hr {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, #000000 100%);
   background: linear-gradient(rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
-/* line 628, ../scss/main.scss */
+/* line 620, ../scss/main.scss */
 .image-container .team-text h1 {
   text-transform: uppercase;
   font-size: 4em;
   font-weight: 700;
 }
 
-/* line 636, ../scss/main.scss */
+/* line 628, ../scss/main.scss */
 .team-member-row {
   margin: 3% auto;
 }
-/* line 639, ../scss/main.scss */
+/* line 631, ../scss/main.scss */
 .team-member-row h1 {
   text-transform: uppercase;
   font-size: 3em;
   font-weight: 700;
   color: #ffffff;
 }
-/* line 649, ../scss/main.scss */
+/* line 641, ../scss/main.scss */
 .team-member-row .team-grid li .infobox {
   max-height: 100px;
   padding: 5% 0 0 5%;
 }
 
-/* line 659, ../scss/main.scss */
+/* line 651, ../scss/main.scss */
 .rules-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 3% 5%;
@@ -740,30 +731,30 @@ hr {
   -webkit-box-shadow: 0 5px 15px 1px black;
   box-shadow: 0 5px 15px 1px black;
 }
-/* line 665, ../scss/main.scss */
+/* line 657, ../scss/main.scss */
 .rules-container li {
   font-weight: 700;
   line-height: 2;
 }
 
-/* line 673, ../scss/main.scss */
+/* line 665, ../scss/main.scss */
 .add-records td, .add-records th {
   padding: 10px !important;
 }
-/* line 677, ../scss/main.scss */
+/* line 669, ../scss/main.scss */
 .add-records td {
   font-size: .7em;
 }
-/* line 680, ../scss/main.scss */
+/* line 672, ../scss/main.scss */
 .add-records td:nth-child(4) {
   width: 35%;
 }
-/* line 684, ../scss/main.scss */
+/* line 676, ../scss/main.scss */
 .add-records td img {
   width: 70px;
 }
 
-/* line 690, ../scss/main.scss */
+/* line 682, ../scss/main.scss */
 .bg-success {
   background: lightseagreen;
   padding: 10px;
@@ -771,11 +762,11 @@ hr {
   text-align: center;
 }
 
-/* line 699, ../scss/main.scss */
+/* line 691, ../scss/main.scss */
 #event-modal .modal-body {
   background: #ececec;
 }
-/* line 702, ../scss/main.scss */
+/* line 694, ../scss/main.scss */
 #event-modal .modal-body img {
   border: 7px solid white;
   border-radius: 20px;
@@ -783,23 +774,23 @@ hr {
   -webkit-box-shadow: 0px 5px 0 5px 10px 0px grey;
   box-shadow: 0px 5px 0 5px 10px 0px grey;
 }
-/* line 708, ../scss/main.scss */
+/* line 700, ../scss/main.scss */
 #event-modal .modal-body #event-name {
   padding: 10px;
   background: lightgrey;
   font-weight: 700;
   border-radius: 5px;
 }
-/* line 716, ../scss/main.scss */
+/* line 708, ../scss/main.scss */
 #event-modal .modal-body #event-type {
   font-weight: 400;
   color: gray;
 }
-/* line 722, ../scss/main.scss */
+/* line 714, ../scss/main.scss */
 #event-modal .modal-body hr {
   border-color: lightgrey;
 }
-/* line 727, ../scss/main.scss */
+/* line 719, ../scss/main.scss */
 #event-modal .modal-footer {
   margin-top: 0;
 }

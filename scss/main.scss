@@ -8,7 +8,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: auto;
 }
 
 a:focus{
@@ -496,9 +496,7 @@ body{
 }
 
 #committee{
-  background: url("../img/Bokeh-Wallpaper.jpg");
-  background-size: contain;
-  background-position: bottom;
+  background: url("../img/Bokeh-Wallpaper.jpg") bottom / cover;
   margin-top: 50px;
   @include single-box-shadow(0,-5px,15px,0,transparentize(black,.6));
 
@@ -545,12 +543,6 @@ body{
 
 .bokeh-bg {
   background: url("../img/bokeh-bg.jpg");
-  background-size: cover;
-}
-
-.wrapper{
-  min-height: 100%;
-  height: 100%;
 }
 
 .other-wrapper{

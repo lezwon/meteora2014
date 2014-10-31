@@ -4,7 +4,7 @@
 global $con;
 
 
-$production = 1;
+$production = 0;
 
 if($production){
     //PRODUCTION
