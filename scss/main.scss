@@ -54,6 +54,10 @@ a:focus{
   width: 80%;
 }
 
+.section{
+  overflow: hidden;
+}
+
 .title{
   font-family: 'Yanone Kaffeesatz', sans-serif !important;
   font-size: 3em;
@@ -64,16 +68,6 @@ a:focus{
   padding: 20px;
   text-align: center;
   @include border-radius(15px);
-}
-
-
-.title2 {
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 30px;
-  padding: 12px 0;
-  border-bottom: 6px solid black;
-  font-size: 3em;
 }
 
 .other-row{
@@ -503,10 +497,10 @@ body{
 
 #committee{
   background: url("../img/Bokeh-Wallpaper.jpg");
-//  background-size: cover;
+  background-size: contain;
   background-position: bottom;
   margin-top: 50px;
-  @include single-box-shadow(0,-5px,15px,0transparentize(black,.6));
+  @include single-box-shadow(0,-5px,15px,0,transparentize(black,.6));
 
   h1{
     color: #ffffff;

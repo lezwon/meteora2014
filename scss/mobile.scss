@@ -39,6 +39,11 @@ body{
 
 
 #banner{
+  height: 550px;
+  background: url("../img/Concert-stock3112_small.jpg") top;
+  background-size: 110%;
+
+
   .row .text-container{
     h1{
       font-size: 3.5em;
@@ -63,6 +68,9 @@ body{
 }
 
 #intro{
+
+  background: url("../img/sys_media_2094_small.jpg");
+  background-size: cover;
 
   background-position-x: 17%;
 
@@ -104,6 +112,8 @@ body{
 
 
 #committee {
+  background: url("../img/Bokeh-Wallpaper_small.jpg");
+  background-size: contain;
 
   .quote{
     font-size: 1.2em;

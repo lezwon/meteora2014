@@ -35,142 +35,156 @@ body {
   padding-top: 20%;
 }
 
-/* line 43, ../scss/mobile.scss */
+/* line 41, ../scss/mobile.scss */
+#banner {
+  height: 550px;
+  background: url("../img/Concert-stock3112_small.jpg") top;
+  background-size: 110%;
+}
+/* line 48, ../scss/mobile.scss */
 #banner .row .text-container h1 {
   font-size: 3.5em;
 }
-/* line 47, ../scss/mobile.scss */
+/* line 52, ../scss/mobile.scss */
 #banner .row .text-container h2 {
   font-size: 2em;
 }
 
-/* line 55, ../scss/mobile.scss */
+/* line 60, ../scss/mobile.scss */
 #sub-nav .columns {
   padding: 0;
 }
-/* line 59, ../scss/mobile.scss */
+/* line 64, ../scss/mobile.scss */
 #sub-nav ul li a {
   font-size: 2em;
   padding: 25px 0;
 }
 
-/* line 65, ../scss/mobile.scss */
+/* line 70, ../scss/mobile.scss */
 #intro {
-  background-position-x: 17%;
+  background: url("../img/sys_media_2094_small.jpg");
+  background-size: cover;
+  background-position: 17% bottom;
+  height: 700px;
 }
-/* line 69, ../scss/mobile.scss */
+/* line 77, ../scss/mobile.scss */
 #intro .text-container {
   text-align: center;
-  margin-top: 500px;
+  /* margin-top: 471px; */
 }
-/* line 73, ../scss/mobile.scss */
+/* line 81, ../scss/mobile.scss */
 #intro .text-container h1 {
   font-size: 28px;
 }
-/* line 77, ../scss/mobile.scss */
+/* line 85, ../scss/mobile.scss */
 #intro .text-container p {
   font-size: .8em;
 }
 
-/* line 87, ../scss/mobile.scss */
+/* line 95, ../scss/mobile.scss */
 #schedule .tab-nav a {
   padding: 10px 15px !important;
   margin-right: 20px !important;
   font-size: 1.8em !important;
 }
-/* line 94, ../scss/mobile.scss */
+/* line 102, ../scss/mobile.scss */
 #schedule table tr td {
   padding: 15px 10px;
 }
-/* line 98, ../scss/mobile.scss */
+/* line 106, ../scss/mobile.scss */
 #schedule table tr td a {
   font-size: .9em;
 }
 
-/* line 108, ../scss/mobile.scss */
+/* line 114, ../scss/mobile.scss */
+#committee {
+  background: url("../img/Bokeh-Wallpaper_small.jpg");
+  background-size: contain;
+}
+/* line 118, ../scss/mobile.scss */
 #committee .quote {
   font-size: 1.2em;
   padding: 20px 0;
 }
 
-/* line 116, ../scss/mobile.scss */
+/* line 126, ../scss/mobile.scss */
 #footer h1 {
   font-size: 3em;
   padding: 20px 0;
 }
 
-/* line 121, ../scss/mobile.scss */
+/* line 131, ../scss/mobile.scss */
 .infobox {
   padding: 10px 15px;
 }
-/* line 124, ../scss/mobile.scss */
+/* line 134, ../scss/mobile.scss */
 .infobox h4 {
   font-size: .9em;
 }
-/* line 128, ../scss/mobile.scss */
+/* line 138, ../scss/mobile.scss */
 .infobox p {
   font-size: .8em;
 }
 
-/* line 133, ../scss/mobile.scss */
+/* line 143, ../scss/mobile.scss */
 .bokeh-bg {
   background: url("../img/bokeh-bg-small.jpg");
 }
 
-/* line 140, ../scss/mobile.scss */
+/* line 150, ../scss/mobile.scss */
 .other-row h1 {
   margin: 40px 0 20px 0;
 }
-/* line 144, ../scss/mobile.scss */
+/* line 154, ../scss/mobile.scss */
 .other-row p {
   font-size: medium;
 }
 
-/* line 150, ../scss/mobile.scss */
+/* line 160, ../scss/mobile.scss */
 .image-container {
   padding: 15px;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 154, ../scss/mobile.scss */
+/* line 164, ../scss/mobile.scss */
 .image-container .team-text {
   position: static;
   padding: 0;
   background: none;
 }
-/* line 159, ../scss/mobile.scss */
+/* line 169, ../scss/mobile.scss */
 .image-container .team-text h1 {
   font-size: xx-large;
 }
-/* line 163, ../scss/mobile.scss */
+/* line 173, ../scss/mobile.scss */
 .image-container .team-text p {
   font-size: small;
 }
 
-/* line 170, ../scss/mobile.scss */
+/* line 180, ../scss/mobile.scss */
 .team-member-row h1 {
   font-size: 2em;
 }
 
-/* line 177, ../scss/mobile.scss */
+/* line 187, ../scss/mobile.scss */
 .rules-container .title {
   font-size: 1.9em;
   width: 100%;
 }
-/* line 182, ../scss/mobile.scss */
+/* line 192, ../scss/mobile.scss */
 .rules-container ul {
   padding: 20px;
 }
-/* line 185, ../scss/mobile.scss */
+/* line 195, ../scss/mobile.scss */
 .rules-container ul li {
   font-size: .8em;
   padding: 5px 0;
 }
 
-/* line 195, ../scss/mobile.scss */
+/* line 205, ../scss/mobile.scss */
 #event-modal .modal-body {
   padding: 10px;
 }
-/* line 202, ../scss/mobile.scss */
+/* line 212, ../scss/mobile.scss */
 #event-modal .modal-body #event-name {
   font-size: 1.3em;
 }

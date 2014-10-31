@@ -3,18 +3,25 @@
 
 global $con;
 
-//DEVELOPMENT
-//$host = "localhost";
-//$user = "root";
-//$password = "";
-//$database = "meteora";
 
+$production = 1;
 
-//PRODUCTION
-$host = "mysql.1freehosting.com";
-$user = "u572493528_bosco";
-$password = "82PJV7fuvL";
-$database = "u572493528_met";
+if($production){
+    //PRODUCTION
+
+    $host = "mysql.1freehosting.com";
+    $user = "u572493528_bosco";
+    $password = "82PJV7fuvL";
+    $database = "u572493528_met";
+}else{
+    //DEVELOPMENT
+
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $database = "meteora";
+}
+
 
 
 $con = mysqli_connect($host, $user, $password, $database);

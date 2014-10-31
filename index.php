@@ -18,7 +18,7 @@
 
         <div class="wrapper">
 
-            <div id="banner">
+            <div class="section" id="banner">
                 <div class="row">
                     <div class="small-12 columns">
                         <div class="text-container">
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div id="sub-nav">
+            <div class="section" id="sub-nav">
                 <div class="row">
                     <div class="small-12 columns">
                         <ul class="small-block-grid-3">
@@ -42,7 +42,7 @@
             </div>
 
 
-            <div id="intro">
+            <div class="section" id="intro">
                 <div class="row">
 
 
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div id="schedule">
+            <div class="section" id="schedule">
                 <div class="row">
                     <div class="small-12 .columns">
                         <h1 class="title">Schedule</h1>
@@ -219,7 +219,7 @@
                 </div>
             </div>
 
-            <div id="venue">
+            <div class="section" id="venue">
                 <div class="row">
                     <div class="small-12 columns">
                         <h1 class="title">Venue and Time</h1>
@@ -241,7 +241,7 @@
                 </div>
             </div>
 
-            <div id="chat">
+            <div class="section" id="chat">
                 <div class="row">
                     <div class="small-12 columns">
                         <h1 class="title">Chatroom</h1>
@@ -250,7 +250,7 @@
                 </div>
             </div>
 
-            <div id="committee">
+            <div class="section" id="committee">
 
                 <div class="row">
                     <div class="small-12 columns">
