@@ -273,7 +273,7 @@ body{
 
   .navbar-brand {
     padding: 0;
-    font-family: 'Open Sans' !important;
+    font-family: 'Open Sans', sans-serif !important;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -291,6 +291,8 @@ body{
 #banner{
   height: 600px;
   width: 100%;
+  padding-top: 100px;
+
 /*  background:
   -webkit-linear-gradient(45deg, hsla(334, 95%, 41%, 1) 0%, hsla(334, 95%, 41%, 0) 70%),
   -webkit-linear-gradient(315deg, hsla(78, 99%, 42%, 1) 10%, hsla(78, 99%, 42%, 0) 80%),
@@ -311,17 +313,20 @@ body{
 
 
   .row{
-    @include transform(translate(0, 200px));
-//      margin-top: 200px;
-
     .text-container{
       text-align: center;
       color: #ffffff;
 
+      h3{
+        font-style: italic;
+        font-weight: 400;
+        font-family: Niconne, cursive !important;
+        font-size: 1.8em;
+      }
 
       h1{
         text-transform: uppercase;
-        font-size: 8em;
+        font-size: 7em;
         font-weight: 700;
       }
 
@@ -496,13 +501,15 @@ body{
 }
 
 #committee{
-  background: url("../img/Bokeh-Wallpaper.jpg") bottom / cover;
+  background: url("../img/Bokeh-Wallpaper.jpg") bottom;
+  background-size: cover;
   margin-top: 50px;
   @include single-box-shadow(0,-5px,15px,0,transparentize(black,.6));
 
   h1{
     color: #ffffff;
   }
+
 
   .quote{
     font-size: 2.5em;

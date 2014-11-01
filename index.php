@@ -22,6 +22,12 @@
                 <div class="row">
                     <div class="small-12 columns">
                         <div class="text-container">
+
+
+                                    <img src="img/bosco.png" alt=""/>
+                                    <h3>Don Bosco's College Panjim Presents</h3>
+
+
                             <h1>Meteora 2014</h1>
                             <h2>Mystery Box Unveiled</h2>
                         </div>
