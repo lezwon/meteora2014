@@ -468,18 +468,16 @@ body{
 
   .table-container{
 
-
-
     .table-responsive:not(:first-child){
       display: none;
     }
 
 
     table{
-
+      background: darken(#ffffff,1);
 
       .break{
-        background: darken(white,5);
+        background: darken(white,6);
 
         td{
           font-weight: 700;
@@ -488,6 +486,11 @@ body{
             text-align: center;
           }
         }
+      }
+
+      tr:not(.break)>td:not(:first-child){
+       max-width: 200px;
+        width: 22%;
       }
     }
   }

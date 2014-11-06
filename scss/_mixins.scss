@@ -16,13 +16,16 @@
 @mixin table{
   table{
     text-transform: uppercase;
+    overflow: hidden;
+    @include border-radius(10px);
+
 
     tr{
       td, th{
-        color: grey;
+        color: darken(grey,10);
         padding: 12px 5px;
         font-size: .9em;
-
+        text-align: center;
 
         a{
           display: block;
@@ -40,6 +43,7 @@
 
     th{
       font-size: 1em;
+
     }
   }
 }
