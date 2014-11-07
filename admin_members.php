@@ -31,11 +31,16 @@ if(checkIfFieldSet(['name','post']) && checkIfFileSet('image')){
     $post = $_REQUEST['post'];
     $image = $_FILES['image'];
 
-    $target_dir = "uploads/members";
+    $target_dir = "uploads/members/";
     $target_dir = $target_dir . basename( $image["name"]);
     $uploadOk=1;
 
-// Check if file already exists
+
+    if(!empty($phone)){
+        $phone = "+91".$phone;
+    }
+
+/*// Check if file already exists
     if (file_exists($target_dir)) {
         $alert =  "Sorry, file already exists.";
         $uploadOk = 0;
@@ -44,7 +49,7 @@ if(checkIfFieldSet(['name','post']) && checkIfFileSet('image')){
 
 // Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 0) {
-        $alert =  "Sorry, your file was not uploaded.";
+//        $alert =  "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
     } else {
         if (move_uploaded_file($image["tmp_name"], $target_dir)) {
@@ -53,6 +58,13 @@ if(checkIfFieldSet(['name','post']) && checkIfFileSet('image')){
             $alert =  "Sorry, there was an error uploading your file.";
             $uploadOk = 0;
         }
+    }*/
+
+    if (move_uploaded_file($image["tmp_name"], $target_dir)) {
+
+    } else {
+        $alert =  "Sorry, there was an error uploading your file.";
+        $uploadOk = 0;
     }
 
     if($uploadOk){
@@ -192,7 +204,10 @@ $tbody = retrieveData($sql);
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone</label>
-                                <input type="text" class="form-control" id="phone" name="phone" required=""/>
+                                <div class="input-group">
+                                    <div class="input-group-addon">+91</div>
+                                    <input type="text" class="form-control" id="phone" name="phone"/>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="description">Description</label>

@@ -108,7 +108,7 @@
                                         <td>Ice Breaker</td>
                                         <td>Stress Interview (Prelims)</td>
                                         <td></td>
-                                        <td rowspan="8">Football, Tie Breaker, Treasure Hunt, Obstacle Race</td>
+                                        <td rowspan="8">Football<br> Tie Breaker<br> Treasure Hunt<br> Obstacle Race</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="3">11.30 - 12.30</td>
@@ -288,14 +288,14 @@
                                     <div class="row">
                                         <div class="small-4 columns">
                                             <div class="img-ctr">
-                                                <img src="http://okanaganlife.com/wp-content/uploads/2014/01/in-person-kim-foreman-120x120.jpg" alt=""/>
+                                                <img src="img/prajakta.jpg" alt=""/>
                                             </div>
                                         </div>
                                         <div class="small-8 columns">
                                             <div class="text-ctr">
                                                 <h4>Prajakta Ambiye</h4>
                                                 <small>Cultural Secretary</small>
-                                                <p>Tel: <a href="tel:+919405348993">9405334893</a></p>
+                                                <p>Tel: <a href="tel:+919049442604">9049442604</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -308,14 +308,14 @@
                                     <div class="row">
                                         <div class="small-4 columns">
                                             <div class="img-ctr">
-                                                <img src="https://media.licdn.com/mpr/mpr/shrink_120_120/p/6/005/08c/21a/1063c9d.jpg" alt=""/>
+                                                <img src="img/kunal.jpg" alt=""/>
                                             </div>
                                         </div>
                                         <div class="small-8 columns">
                                             <div class="text-ctr">
                                                 <h4>Kunal Dalvi</h4>
                                                 <small>General Secretary</small>
-                                                <p>Tel: <a href="tel:+919405348993">9405334893</a></p>
+                                                <p>Tel: <a href="tel:+918087652452">8087652452</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -327,7 +327,7 @@
                                     <div class="row">
                                         <div class="small-4 columns">
                                             <div class="img-ctr">
-                                                <img src="https://media.licdn.com/mpr/mpr/shrink_120_120/p/2/000/192/3fb/1436f2a.jpg" alt=""/>
+                                                <img src="img/vibhinav.jpg" alt=""/>
                                             </div>
                                         </div>
                                         <div class="small-8 columns">
@@ -341,6 +341,15 @@
                                 </div>
                             </li>
                         </ul>
+
+                        <hr/>
+
+                        <div class="email-contact text-center">
+                            <p>Our Email Address</p>
+                            <a class="btn btn-lg" href="mailto:meteora2k14@gmail.com">meteora2k14@gmail.com</a>
+                        </div>
+
+
                     </div>
                 </div>
 

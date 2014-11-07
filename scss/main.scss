@@ -489,7 +489,6 @@ body{
       }
 
       tr:not(.break)>td:not(:first-child){
-       max-width: 200px;
         width: 22%;
       }
     }
@@ -523,12 +522,37 @@ body{
     text-align: center;
   }
 
+  .email-contact {
+
+
+    p{
+      color: #ffffff;
+      font-size: 2em;
+      font-weight: 700;
+      line-height: 1.2em;
+    }
+
+    a{
+      margin: 3% auto;
+      font-weight: 700;
+      padding: 2% 10%;
+      color: #ffffff;
+      background-color: $muddy;
+      border-color: lighten($muddy,5);
+      @include single-box-shadow(0,5px,10px,0,black);
+      @include transition(all .3s ease);
+
+      &:hover{
+        background-color: lighten($muddy,5);
+      }
+    }
+  }
 }
 
 #footer{
   width: 100%;
   background: transparentize(#000000,.3);
-  margin-top: 60px;
+  margin-top: 5%;
   padding-top: 2%;
   position: static;
   bottom: 0;
@@ -565,7 +589,11 @@ body{
   margin-bottom: 50px;
   background: #ffffff;
   @include single-box-shadow(0,3px,4px, 0, transparentize(black,.5));
-  @include border-radius(5px);
+  @include border-radius(10px);
+
+  .title{
+    @include border-radius(5px !important);
+  }
 
   .event-header-row{
     margin-bottom: 1%;

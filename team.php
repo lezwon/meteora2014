@@ -77,7 +77,9 @@
                                         <div class="text-ctr">
                                             <h4><?php echo $row["name"]; ?></h4>
                                             <small><?php echo $row["post"]; ?></small>
-                                            <p>Tel: <a href="tel:+91<?php echo $row["phone"]; ?>"><?php echo $row["phone"]; ?></a></p>
+                                            <?php if($row["phone"] != "" ){ ?>
+                                                <p>Tel: <a href="tel:+91<?php echo $row["phone"]; ?>"><?php echo $row["phone"]; ?></a></p>
+                                            <?php } ?>
                                         </div>
                                     </div>
                                 </div>
