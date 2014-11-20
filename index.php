@@ -81,10 +81,11 @@
                                 <li><a href="#day-2" class="tab-link no-scroll">Day 2</a></li>
                             </ul>
 
-                        <div Class="table-container">
-                            <div Class="table-responsive">
+                        <div class="table-container">
+                            <div class="table-responsive">
 
                                 <table class="table table-bordered" id="day-1">
+
                                     <thead>
                                     <tr>
                                         <th>Time</th>
@@ -94,80 +95,104 @@
                                         <th>Ground</th>
                                     </tr>
                                     </thead>
+
                                     <tbody>
+
                                     <tr class="break">
-                                        <td>8.30 -9.30</td>
+                                        <td>8.30 - 9.30</td>
                                         <td colspan="4">Registration</td>
                                     </tr>
                                     <tr class="break">
-                                        <td>9.30 -10.30</td>
+                                        <td>9.30 - 10.30</td>
                                         <td colspan="4">Inaugral</td>
                                     </tr>
+
                                     <tr>
                                         <td>10.30 - 11.30</td>
-                                        <td>Ice Breaker</td>
-                                        <td>Stress Interview (Prelims)</td>
-                                        <td></td>
-                                        <td rowspan="8">Football<br> Tie Breaker<br> Treasure Hunt<br> Obstacle Race</td>
+                                        <td>Bring it On (Round 1)</td>
+                                        <td>Spooked Out (Prelims)</td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
-                                        <td rowspan="3">11.30 - 12.30</td>
-                                        <td rowspan="3">Role Act</td>
-                                        <td rowspan="3">Stress Interview (Finals)</td>
-                                        <td>Photography</td>
+                                        <td rowspan="2">11.30 - 12.30</td>
+                                        <td rowspan="2">Spooked Out (Finals)</td>
+                                        <td rowspan="2">A Comic Caper</td>
+                                        <td>Freeze the Moment</td>
+                                        <td rowspan="5">
+                                            <ul>
+                                                <li>Treasure Hunt</li>
+                                                <li>Obstacle Race</li>
+                                            </ul>
+                                        </td>
                                     </tr>
+
                                     <tr>
-                                        <td>Fund Raiser (Round 1)</td>
+                                        <td>Different Strokes (Round 1)</td>
                                     </tr>
+
                                     <tr>
-                                        <td>MAD (Round 1)</td>
+                                        <td rowspan="3">12.30 - 1.30</td>
+                                        <td rowspan="3">Scrap Music</td>
+                                        <td rowspan="3"> </td>
+                                        <td>Freeze the Moment</td>
                                     </tr>
+
                                     <tr>
-                                        <td rowspan="4">12.30 - 1.30</td>
-                                        <td rowspan="4">Junkyard Jam</td>
-                                        <td rowspan="4"></td>
-                                        <td>Photography</td>
+                                        <td>Point - Counterpoint (Round 1)</td>
                                     </tr>
+
                                     <tr>
-                                        <td>MAD (Round 2)</td>
+                                        <td>Squaring Off (Prelims)</td>
                                     </tr>
-                                    <tr>
-                                        <td>Debate (Round 1)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Quiz (Prelims)</td>
-                                    </tr>
+
                                     <tr class="break">
                                         <td>1.30 - 2.30</td>
-                                        <td colspan="4">Lunch Break</td>
+                                        <td colspan="4"> LUNCH BREAK</td>
                                     </tr>
+
                                     <tr>
                                         <td>2.30 - 3.30</td>
-                                        <td>War of DJ's</td>
-                                        <td>Debate (Round 2)</td>
-                                        <td>Fundraiser (Round 2)</td>
-                                        <td></td>
+                                        <td>Rock On</td>
+                                        <td>Point - Counterpoint (Round 2)</td>
+                                        <td>Business of Ideas (Round 1)</td>
+                                        <td>
+                                            <ul>
+                                                <li>The Excitement Begins</li>
+                                                <li>Kick to Win</li>
+                                            </ul>
+                                        </td>
                                     </tr>
+
                                     <tr>
                                         <td>3.30 - 4.30</td>
-                                        <td rowspan="2">Mr & Ms Meteora</td>
-                                        <td>Basketball</td>
-                                        <td></td>
-                                        <td></td>
+                                        <td rowspan="2">
+                                            <ul>
+                                                <li>Twinkle Toes</li>
+                                                <li>Take A Bow</li>
+                                            </ul>
+                                        </td>
+                                        <td>Pot the Ball</td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
                                         <td>4.30 - 5.30</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     </tbody>
                                 </table>
 
                             </div>
 
                             <div Class="table-responsive">
-                                <table class="table table-bordered" id="day-2">
+                                <table class="table table-bordered" id="day-2" >
+
                                     <thead>
                                     <tr>
                                         <th>Time</th>
@@ -177,57 +202,66 @@
                                         <th>Ground</th>
                                     </tr>
                                     </thead>
+
                                     <tbody>
                                     <tr>
-                                        <td>9.30 - 10.30</td>
-                                        <td>Musical Act</td>
-                                        <td>Ice Breaker</td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>9.30-10.30</td>
+                                        <td>All the World’s a Stage</td>
+                                        <td>Bring it On (Round2)</td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
-                                        <td>10.30 - 11.30</td>
-                                        <td>Dare to Win</td>
-                                        <td>Extempore</td>
-                                        <td>Dress out of Waste</td>
-                                        <td></td>
+                                        <td>10.30-11.30</td>
+                                        <td>Do You have What it Takes</td>
+                                        <td>A Wordy Encounter</td>
+                                        <td>Weave a Spell</td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
-                                        <td>11.30 - 12.30</td>
-                                        <td>Quiz (Final)</td>
-                                        <td>Beat Boxing</td>
-                                        <td>Fund Raiser (Round 3)</td>
-                                        <td></td>
+                                        <td>11.30-12.30</td>
+                                        <td>Squaring Off Final </td>
+                                        <td>Musically Yours</td>
+                                        <td>Business of Ideas (Round 2)</td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
-                                        <td>12.30 - 1.30</td>
-                                        <td>Body Building</td>
-                                        <td>Debate (Final)</td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>12.30-1.30</td>
+                                        <td>Point-Counterpoint (Final)</td>
+                                        <td>Muscle Mania</td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr class="break">
-                                        <td>1.30 - 2.30</td>
-                                        <td colspan="4">Lunch Break</td>
+                                        <td>1.30-2.30</td>
+                                        <td colspan="4">LUNCH BREAK</td>
                                     </tr>
+
                                     <tr>
-                                        <td>2.30 - 3.30</td>
-                                        <td>Fashion Show</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>2.30-3.30</td>
+                                        <td>Uber Cool Couple</td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr>
-                                        <td>3.30 - 5.00</td>
-                                        <td>Dance</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>3.30-5</td>
+                                        <td>When the Stars Came Down</td>
+                                        <td> </td>
+                                        <td> </td>
+                                        <td> </td>
                                     </tr>
+
                                     <tr class="break">
-                                        <td>5.00 - 6.00</td>
-                                        <td colspan="4">Valedictory</td>
+                                        <td>5-6</td>
+                                        <td colspan="4">VALEDICTORY</td>
                                     </tr>
+
                                     </tbody>
                                 </table>
                             </div>
@@ -334,7 +368,7 @@
                                             <div class="text-ctr">
                                                 <h4>Vibhinav Shirodkar</h4>
                                                 <small>Meteora Chairman</small>
-                                                <p>Tel: <a href="tel:+919405348993">9405334893</a></p>
+                                                <p>Tel: <a href="tel:+919405348993">+91779836104</a></p>
                                             </div>
                                         </div>
                                     </div>

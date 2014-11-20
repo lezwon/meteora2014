@@ -28,6 +28,12 @@
         text-align: center;
         line-height: 2;
 
+        ul{
+          li{
+            list-style: none;
+          }
+        }
+
         a{
           display: block;
           color: grey;

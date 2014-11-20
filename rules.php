@@ -21,10 +21,20 @@
                         <hr/>
 
                         <ul>
-                            <li>Each college should not exceed 35 participants.</li>
+                            <li>Each college should not exceed 40 participants.</li>
                             <li>Participants should carry their college identity cards.</li>
                             <li>Confirmation of participants should reach by 20th of November 2014.</li>
-                            <li>All participants should report to the registration desk by 8:30 am on 4th December 2014. Registration fee is Rs.350/-</li>
+                            <li>All participants should report to the registration desk by 8:30 am on 4th December 2014. Registration fee is Rs.500/-
+
+                                <p>Note:- (Early bird points to colleges who come early)</p>
+
+                                    <ul>
+                                        <li>First college to report: 30points</li>
+                                        <li>Second college to report: 20points</li>
+                                        <li>Third college to report: 10points</li>
+                                    </ul>
+
+                            </li>
                             <li>Soft copy to be brought on CD’s ONLY.</li>
                             <li>Discipline and decorum to be maintained. In case of any indiscipline the organizers reserve the right to disqualify the team.</li>
                             <li>Any form of vulgarity in any of the event will lead to disqualification.</li>

@@ -240,6 +240,11 @@ $tbody = retrieveData($sql);
                                     <input type="radio" id="offstage" name="type" value="2" required=""/>
                                     <label for="offstage">Offstage Event</label>
                                 </div>
+
+                                <div class="radio-inline">
+                                    <input type="radio" id="ground" name="type" value="3" required=""/>
+                                    <label for="ground">Ground Event</label>
+                                </div>
                             </fieldset>
                             
                             <div class="form-group">
@@ -254,7 +259,7 @@ $tbody = retrieveData($sql);
 
                             <div class="form-group">
                                 <label for="image_large">Mobile Image (350x450)</label>
-                                <input type="file" name="image_mobile" class="form-control" id="image_mobile" required="">
+                                <input type="file" name="image_mobile" class="form-control" id="image_mobile">
                             </div>
                         </div>
                     </div>

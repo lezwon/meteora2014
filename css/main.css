@@ -237,7 +237,7 @@ hr {
   padding: 10px 5px;
   font-weight: 700;
 }
-/* line 61, ../scss/_mixins.scss */
+/* line 67, ../scss/_mixins.scss */
 .navbar.navbar-default li a:hover {
   background: none;
   color: white;
@@ -383,7 +383,7 @@ hr {
   font-weight: 700;
   font-size: 5em;
 }
-/* line 61, ../scss/_mixins.scss */
+/* line 67, ../scss/_mixins.scss */
 #sub-nav ul li a:hover {
   background: none;
   color: white;
@@ -442,7 +442,11 @@ hr {
   text-align: center;
   line-height: 2;
 }
-/* line 31, ../scss/_mixins.scss */
+/* line 32, ../scss/_mixins.scss */
+#schedule table tr td ul li, #schedule table tr th ul li {
+  list-style: none;
+}
+/* line 37, ../scss/_mixins.scss */
 #schedule table tr td a, #schedule table tr th a {
   display: block;
   color: grey;
@@ -452,12 +456,12 @@ hr {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 37, ../scss/_mixins.scss */
+/* line 43, ../scss/_mixins.scss */
 #schedule table tr td a:hover, #schedule table tr th a:hover {
   color: black;
   text-decoration: none;
 }
-/* line 45, ../scss/_mixins.scss */
+/* line 51, ../scss/_mixins.scss */
 #schedule table th {
   font-size: 1em;
 }
@@ -545,7 +549,11 @@ hr {
   text-align: center;
   line-height: 2;
 }
-/* line 31, ../scss/_mixins.scss */
+/* line 32, ../scss/_mixins.scss */
+#venue table tr td ul li, #venue table tr th ul li {
+  list-style: none;
+}
+/* line 37, ../scss/_mixins.scss */
 #venue table tr td a, #venue table tr th a {
   display: block;
   color: grey;
@@ -555,12 +563,12 @@ hr {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 37, ../scss/_mixins.scss */
+/* line 43, ../scss/_mixins.scss */
 #venue table tr td a:hover, #venue table tr th a:hover {
   color: black;
   text-decoration: none;
 }
-/* line 45, ../scss/_mixins.scss */
+/* line 51, ../scss/_mixins.scss */
 #venue table th {
   font-size: 1em;
 }
@@ -652,7 +660,7 @@ hr {
   padding: 10px 5px;
   font-weight: 700;
 }
-/* line 61, ../scss/_mixins.scss */
+/* line 67, ../scss/_mixins.scss */
 #footer ul li a:hover {
   background: none;
   color: white;
@@ -713,32 +721,36 @@ hr {
   transition: all 0.3s ease;
 }
 /* line 618, ../scss/main.scss */
+.events-container .event-grid li a img {
+  min-height: 160px;
+}
+/* line 622, ../scss/main.scss */
 .events-container .event-grid li a .event-name-container {
   padding: 10px;
   height: 60px;
   overflow: hidden;
   text-align: center;
 }
-/* line 625, ../scss/main.scss */
+/* line 629, ../scss/main.scss */
 .events-container .event-grid li a .event-name-container p {
   margin: 0;
   font-weight: 400;
   font-size: .8em;
   color: #4d4d4d;
 }
-/* line 633, ../scss/main.scss */
+/* line 637, ../scss/main.scss */
 .events-container .event-grid li a:hover {
   -moz-box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   -webkit-box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   box-shadow: 0 5px 8px 0 rgba(59, 105, 150, 0.6);
   text-decoration: none;
 }
-/* line 637, ../scss/main.scss */
+/* line 641, ../scss/main.scss */
 .events-container .event-grid li a:hover h4 {
   color: #000000;
 }
 
-/* line 650, ../scss/main.scss */
+/* line 654, ../scss/main.scss */
 .image-container .team-text {
   position: absolute;
   left: 0;
@@ -751,31 +763,31 @@ hr {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, #000000 100%);
   background: linear-gradient(rgba(0, 0, 0, 0) 0%, #000000 100%);
 }
-/* line 658, ../scss/main.scss */
+/* line 662, ../scss/main.scss */
 .image-container .team-text h1 {
   text-transform: uppercase;
   font-size: 4em;
   font-weight: 700;
 }
 
-/* line 666, ../scss/main.scss */
+/* line 670, ../scss/main.scss */
 .team-member-row {
   margin: 3% auto;
 }
-/* line 669, ../scss/main.scss */
+/* line 673, ../scss/main.scss */
 .team-member-row h1 {
   text-transform: uppercase;
   font-size: 3em;
   font-weight: 700;
   color: #ffffff;
 }
-/* line 679, ../scss/main.scss */
+/* line 683, ../scss/main.scss */
 .team-member-row .team-grid li .infobox {
   max-height: 100px;
   padding: 5% 0 0 5%;
 }
 
-/* line 689, ../scss/main.scss */
+/* line 693, ../scss/main.scss */
 .rules-container {
   background: rgba(255, 255, 255, 0.9);
   padding: 3% 5%;
@@ -786,30 +798,30 @@ hr {
   -webkit-box-shadow: 0 5px 15px 1px black;
   box-shadow: 0 5px 15px 1px black;
 }
-/* line 695, ../scss/main.scss */
+/* line 699, ../scss/main.scss */
 .rules-container li {
   font-weight: 700;
   line-height: 2;
 }
 
-/* line 703, ../scss/main.scss */
+/* line 707, ../scss/main.scss */
 .add-records td, .add-records th {
   padding: 10px !important;
 }
-/* line 707, ../scss/main.scss */
+/* line 711, ../scss/main.scss */
 .add-records td {
   font-size: .7em;
 }
-/* line 710, ../scss/main.scss */
+/* line 714, ../scss/main.scss */
 .add-records td:nth-child(4) {
   width: 35%;
 }
-/* line 714, ../scss/main.scss */
+/* line 718, ../scss/main.scss */
 .add-records td img {
   width: 70px;
 }
 
-/* line 720, ../scss/main.scss */
+/* line 724, ../scss/main.scss */
 .bg-success {
   background: lightseagreen;
   padding: 10px;
@@ -817,11 +829,11 @@ hr {
   text-align: center;
 }
 
-/* line 729, ../scss/main.scss */
+/* line 733, ../scss/main.scss */
 #event-modal .modal-body {
   background: #ececec;
 }
-/* line 732, ../scss/main.scss */
+/* line 736, ../scss/main.scss */
 #event-modal .modal-body img {
   border: 7px solid white;
   border-radius: 20px;
@@ -829,23 +841,23 @@ hr {
   -webkit-box-shadow: 0px 5px 0 5px 10px 0px grey;
   box-shadow: 0px 5px 0 5px 10px 0px grey;
 }
-/* line 738, ../scss/main.scss */
+/* line 742, ../scss/main.scss */
 #event-modal .modal-body #event-name {
   padding: 10px;
   background: lightgrey;
   font-weight: 700;
   border-radius: 5px;
 }
-/* line 746, ../scss/main.scss */
+/* line 750, ../scss/main.scss */
 #event-modal .modal-body #event-type {
   font-weight: 400;
   color: gray;
 }
-/* line 752, ../scss/main.scss */
+/* line 756, ../scss/main.scss */
 #event-modal .modal-body hr {
   border-color: lightgrey;
 }
-/* line 757, ../scss/main.scss */
+/* line 761, ../scss/main.scss */
 #event-modal .modal-footer {
   margin-top: 0;
 }

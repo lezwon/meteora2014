@@ -113,7 +113,7 @@ $eventModal = '
                                 <h1 id="event-name"></h1>
                                 <h3 id="event-type"></h3>
                                 <hr/>
-                                <p id="event-description"></p>
+                                <pre id="event-description"></pre>
                             </div>
                         </div>
                     </div>

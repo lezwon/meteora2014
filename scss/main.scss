@@ -614,6 +614,10 @@ body{
         @include border-radius(5px);
         @include single-box-shadow(0,3px,4px, 0, transparentize(black,.5));
         @include transition(all .3s ease);
+        
+        img{
+          min-height: 160px;
+        }
 
         .event-name-container{
 //          @include background(linear-gradient(transparent 0, #5d5d5d 100%));
