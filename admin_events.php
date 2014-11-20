@@ -16,7 +16,14 @@ $alert = null;
 //###########################    ADD Event      #############################
 
 function insertEvent($name,$description,$type,$image_small,$image_large,$image_mobile = null){
+
+
     global $alert;
+    global $con;
+
+    $name = mysqli_real_escape_string($con,$name);
+    $description = mysqli_real_escape_string($con,$description);
+
     $sql = "insert into events (name, description, type, image_small,image_large,image_mobile)
 VALUES ('$name','$description',$type,'$image_small','$image_large','$image_mobile')";
     if(executeCommand($sql))
@@ -132,12 +139,10 @@ if(checkIfFieldSet('deleteAll')){
     $filepath = retrieveData($query);
 
     foreach($filepath as $arr=>$row){
-        if(file_exists($row['image_small']) || file_exists($row['image_large'])
-            ||  file_exists($row['image_mobile'])) {
-
-            unlink($row['image_small']);
-            unlink($row['image_large']);
-            unlink($row['image_mobile']);
+        foreach($row as $img){
+            if(file_exists($img)){
+                unlink($img);
+            }
         }
     }
 
@@ -243,7 +248,7 @@ $tbody = retrieveData($sql);
                             </div>
                             <div class="form-group">
                                 <label for="description">Description</label>
-                                <textarea cols="30" rows="3" class="form-control" id="description" name="description" required=""></textarea>
+                                <textarea cols="30" rows="10" class="form-control" id="description" name="description" required=""></textarea>
                             </div>
 
 

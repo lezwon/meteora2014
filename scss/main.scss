@@ -490,6 +490,7 @@ body{
 
       tr:not(.break)>td:not(:first-child){
         width: 22%;
+
       }
     }
   }
@@ -499,6 +500,10 @@ body{
   @include table;
   table{
     text-align: center;
+
+    td{
+      font-weight: 700;
+    }
   }
 }
 
@@ -628,7 +633,7 @@ body{
 
           p{
             margin: 0;
-            font-weight: 400;
+            font-weight: 600;
             font-size: .8em;
             color: lighten(black,30);
           }
@@ -751,6 +756,11 @@ body{
 //      margin-top: 0;
       font-weight: 400;
       color: gray;
+    }
+
+    pre{
+      max-height: 300px;
+      overflow: auto;
     }
 
     hr{

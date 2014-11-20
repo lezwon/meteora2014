@@ -15,10 +15,12 @@
 
 @mixin table{
   table{
-    text-transform: uppercase;
     overflow: hidden;
     @include border-radius(10px);
 
+    .break td, th{
+      text-transform: uppercase;
+    }
 
     tr{
       td, th{

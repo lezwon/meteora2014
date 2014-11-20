@@ -58,14 +58,18 @@
 
                             <hr/>
 
-                            <p>Don Bosco College Presents METEORA 2014.
-                                Event ensure 2 fun filled days of nonstop activities with pulsating sound,dazzling moves and
-                                back 2 back contests.
-                                laboriosam nulla optio quam quos ratione recusandae rem repellat tenetur, ullam unde
-                                veritatis voluptatem? Architecto autem deleniti deserunt dolorum fugiat molestiae natus sit?
-                                Alias, aperiam blanditiis culpa debitis delectus deserunt distinctio dolorum ea, esse iure
-                                iusto minima natus non odio perspiciatis possimus provident quasi quis rem repellendus
-                                repudiandae sequi ullam velit voluptatum?</p>
+                            <p>
+                                Meteora is an annual Don Bosco College cultural fest event. It consists of various
+                                nonstop activities with pulsating sound, dazzling moves and
+                                back 2 back contests for 2 fun-filled days. It is a much awaited event, and we here at
+                                Don Bosco's have worked hard to make it worth the wait. So put on your dancing shoes
+                                and get into your groove, cause this year its just about to get bigger and better!
+                            </p>
+
+                            <p>Life is a mystery with twists and turns, and so is Meteora 2014. We have chosen out theme as
+                                <b>Meteora 2014: Mystery Box Unveiled</b>. We promise you two days full of excitement and
+                                fun. So get set and be there, cause the <b>excitement is gonna begin soon!!</b>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -122,7 +126,7 @@
                                         <td>Freeze the Moment</td>
                                         <td rowspan="5">
                                             <ul>
-                                                <li>Treasure Hunt</li>
+                                                <li>The Game is On</li>
                                                 <li>Obstacle Race</li>
                                             </ul>
                                         </td>
