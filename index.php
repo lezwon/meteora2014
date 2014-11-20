@@ -168,10 +168,7 @@
                                     <tr>
                                         <td>3.30 - 4.30</td>
                                         <td rowspan="2">
-                                            <ul>
-                                                <li>Twinkle Toes</li>
-                                                <li>Take A Bow</li>
-                                            </ul>
+                                            Twinkle Toes Take A Bow
                                         </td>
                                         <td>Pot the Ball</td>
                                         <td> </td>

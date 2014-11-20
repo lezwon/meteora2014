@@ -15,7 +15,7 @@ $alert = null;
 
 //###########################    ADD Event      #############################
 
-function insertEvent($name,$description,$type,$image_small,$image_large,$image_mobile){
+function insertEvent($name,$description,$type,$image_small,$image_large,$image_mobile = null){
     global $alert;
     $sql = "insert into events (name, description, type, image_small,image_large,image_mobile)
 VALUES ('$name','$description',$type,'$image_small','$image_large','$image_mobile')";
@@ -31,34 +31,53 @@ if(checkIfFieldSet(['name','description','type'])
     $name = $_REQUEST['name'];
     $description = $_REQUEST['description'];
     $type = $_REQUEST['type'];
-    $image_small = $_FILES['image_small'];
-    $image_large = $_FILES['image_large'];
-    $image_mobile = $_FILES['image_mobile'];
+    $image['small'] = $_FILES['image_small'];
+    $image['large'] = $_FILES['image_large'];
+    $image['mobile'] = $_FILES['image_mobile'];
 
     $target_base_dir = "uploads/events/";
-    $target_dir_small = $target_base_dir ."small/". basename( $image_small["name"]);
-    $target_dir_large = $target_base_dir ."large/". basename( $image_large["name"]);
-    $target_dir_mobile = $target_base_dir ."mobile/". basename( $image_mobile["name"]);
     $uploadOk=1;
 
-// Check if file already exists
+    foreach($image as $size => $img){
+        if($img["name"] != ""){
+            $target_dir[$size] = $target_base_dir .$size."/". basename( $image[$size]["name"]);
+
+            if (!move_uploaded_file($img["tmp_name"],$target_dir[$size])){
+                $alert = error_get_last ();
+                $uploadOk = 0;
+                break;
+            }
+        }
+        else{
+            $img = null;
+            $target_dir[$size] = null;
+        }
+    }
+
+
+//    $target_dir_small = $target_base_dir ."small/". basename( $image['small']["name"]);
+//    $target_dir_large = $target_base_dir ."large/". basename($image['large']["name"]);
+//    $target_dir_mobile = $target_base_dir ."mobile/". basename( $image['mobile']["name"]);
+
+
+/*// Check if file already exists
     if (file_exists($target_dir_small) || file_exists($target_dir_large)
         || file_exists($target_dir_mobile)) {
 
         $alert =  "Sorry, file already exists.";
         $uploadOk = 0;
-    }
+    }*/
 
 
-// Check if $uploadOk is set to 0 by an error
+/*// Check if $uploadOk is set to 0 by an error
     if ($uploadOk == 0) {
-        $alert =  "Sorry, your file was not uploaded.";
+//        $alert =  "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
     } else {
         if (
-            move_uploaded_file($image_small["tmp_name"], $target_dir_small) &&
-            move_uploaded_file($image_large["tmp_name"], $target_dir_large) &&
-            move_uploaded_file($image_mobile["tmp_name"], $target_dir_mobile)
+            move_uploaded_file($image['small']["tmp_name"], $target_dir_small)
+            &&  move_uploaded_file($image['large']["tmp_name"], $target_dir_large)
+//          &&  move_uploaded_file($image_mobile["tmp_name"], $target_dir_mobile)
         ) {
 
 //            $alert =  "The file ". basename( $image["name"]). " has been uploaded.";
@@ -66,10 +85,10 @@ if(checkIfFieldSet(['name','description','type'])
             $alert =  "Sorry, there was an error uploading your file.";
             $uploadOk = 0;
         }
-    }
+    }*/
 
     if($uploadOk){
-        insertEvent($name,$description,$type,$target_dir_small,$target_dir_large,$target_dir_mobile);
+        insertEvent($name,$description,$type,$target_dir["small"],$target_dir["large"],$target_dir["mobile"]);
     }
 
 }
