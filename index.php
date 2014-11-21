@@ -19,7 +19,7 @@
         <div class="wrapper">
 
             <div class="section" id="banner">
-                <div class="row">
+                <div class="row hide-for-medium-up">
                     <div class="small-12 columns">
                         <div class="text-container">
 
@@ -67,8 +67,8 @@
                             </p>
 
                             <p>Life is a mystery with twists and turns, and so is Meteora 2014. We have chosen out theme as
-                                <b>Meteora 2014: Mystery Box Unveiled</b>. We promise you two days full of excitement and
-                                fun. So get set and be there, cause the <b>excitement is gonna begin soon!!</b>
+                                Meteora 2014: Mystery Box Unveiled. We promise you two days full of excitement and
+                                fun. So get set and be there, cause the excitement is gonna begin soon!!
                             </p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
 
                                     <tbody>
                                     <tr>
-                                        <td>9.30-10.30</td>
+                                        <td>9.30 - 10.30</td>
                                         <td>All the World’s a Stage</td>
                                         <td>Bring it On (Round2)</td>
                                         <td> </td>
@@ -214,7 +214,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>10.30-11.30</td>
+                                        <td>10.30 - 11.30</td>
                                         <td>Do You have What it Takes</td>
                                         <td>A Wordy Encounter</td>
                                         <td>Weave a Spell</td>
@@ -222,7 +222,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>11.30-12.30</td>
+                                        <td>11.30 - 12.30</td>
                                         <td>Squaring Off Final </td>
                                         <td>Musically Yours</td>
                                         <td>Business of Ideas (Round 2)</td>
@@ -230,20 +230,20 @@
                                     </tr>
 
                                     <tr>
-                                        <td>12.30-1.30</td>
-                                        <td>Point-Counterpoint (Final)</td>
+                                        <td>12.30 - 1.30</td>
+                                        <td>Point - Counterpoint (Final)</td>
                                         <td>Muscle Mania</td>
                                         <td> </td>
                                         <td> </td>
                                     </tr>
 
                                     <tr class="break">
-                                        <td>1.30-2.30</td>
+                                        <td>1.30 - 2.30</td>
                                         <td colspan="4">LUNCH BREAK</td>
                                     </tr>
 
                                     <tr>
-                                        <td>2.30-3.30</td>
+                                        <td>2.30 - 3.30</td>
                                         <td>Uber Cool Couple</td>
                                         <td> </td>
                                         <td> </td>
@@ -251,7 +251,7 @@
                                     </tr>
 
                                     <tr>
-                                        <td>3.30-5</td>
+                                        <td>3.30 - 5.00</td>
                                         <td>When the Stars Came Down</td>
                                         <td> </td>
                                         <td> </td>
@@ -259,7 +259,7 @@
                                     </tr>
 
                                     <tr class="break">
-                                        <td>5-6</td>
+                                        <td>5.00 - 6.00</td>
                                         <td colspan="4">VALEDICTORY</td>
                                     </tr>
 

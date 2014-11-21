@@ -29,9 +29,9 @@
                                 <p>Note:- (Early bird points to colleges who come early)</p>
 
                                     <ul>
-                                        <li>First college to report: 30points</li>
-                                        <li>Second college to report: 20points</li>
-                                        <li>Third college to report: 10points</li>
+                                        <li>First college to report: 30 points</li>
+                                        <li>Second college to report: 20 points</li>
+                                        <li>Third college to report: 10 points</li>
                                     </ul>
 
                             </li>

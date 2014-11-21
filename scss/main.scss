@@ -280,7 +280,7 @@ body{
     float: right;
 
     img {
-      height: 50px;
+      height: 33px;
     }
   }
 
@@ -306,8 +306,7 @@ body{
 
 //  background-image: url("../img/night_music_concert-wallpaper-1920x1200.jpg");
 //  background-image: url("../img/18389-laser-show-at-a-concert-1920x1200-photography-wallpaper.jpg");
-  background-image: url("../img/Concert-stock3112.jpg");
-  background-position: center 80%;
+  background-image: url("../img/cover2.jpg");
   background-size: cover;
 
 
@@ -366,7 +365,6 @@ body{
 
       a{
         @include links(1.5em);
-        padding: 60px 0;
         margin: 0;
         width: 100%;
         display: block;
@@ -415,6 +413,7 @@ body{
 
   p{
     line-height: 1.8;
+    font-weight: 600;
   }
 }
 
