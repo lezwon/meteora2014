@@ -12,8 +12,11 @@ $(document).ready(function() {
         $("#nanoGallery").nanoGallery({
             thumbnailWidth: 'auto',
             thumbnailHeight: 250,
-            userID: '111186676244625461692', kind:'picasa',
-            album: '5911347863561293937',
+
+            'kind': 'picasa',
+            'userID': '107414295894871440057',
+            'album': '6084413493052201185',
+
             colorScheme: 'none',
             thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
             //theme: 'clean',
@@ -24,7 +27,7 @@ $(document).ready(function() {
             colorSchemeViewer: 'dark',
             viewerDisplayLogo: true,
             thumbnailLazyLoad: true,
-            photoSorting: 'random',
+            //photoSorting: 'random',
             touchAnimation: true,
             touchAutoOpenDelay: 0
 

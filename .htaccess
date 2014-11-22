@@ -449,10 +449,10 @@ FileETag None
 <IfModule mod_expires.c>
 
     ExpiresActive on
-    ExpiresDefault                                      "access plus 1 month"
+    ExpiresDefault                                      "access plus 1 day"
 
   # CSS
-    ExpiresByType text/css                              "access plus 1 year"
+    ExpiresByType text/css                              "access plus 1 day"
 
   # Data interchange
     ExpiresByType application/json                      "access plus 0 seconds"
@@ -460,7 +460,7 @@ FileETag None
     ExpiresByType text/xml                              "access plus 0 seconds"
 
   # Favicon (cannot be renamed!)
-    ExpiresByType image/x-icon                          "access plus 1 week"
+    ExpiresByType image/x-icon                          "access plus 1 day"
 
   # HTML components (HTCs)
     ExpiresByType text/x-component                      "access plus 1 month"
@@ -469,20 +469,20 @@ FileETag None
     ExpiresByType text/html                             "access plus 0 seconds"
 
   # JavaScript
-    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/javascript                "access plus 1 day"
 
   # Manifest files
     ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
     ExpiresByType text/cache-manifest                   "access plus 0 seconds"
 
   # Media
-    ExpiresByType audio/ogg                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
-    ExpiresByType image/png                             "access plus 1 month"
-    ExpiresByType video/mp4                             "access plus 1 month"
-    ExpiresByType video/ogg                             "access plus 1 month"
-    ExpiresByType video/webm                            "access plus 1 month"
+    ExpiresByType audio/ogg                             "access plus 1 day"
+    ExpiresByType image/gif                             "access plus 1 day"
+    ExpiresByType image/jpeg                            "access plus 1 day"
+    ExpiresByType image/png                             "access plus 1 day"
+    ExpiresByType video/mp4                             "access plus 1 day"
+    ExpiresByType video/ogg                             "access plus 1 day"
+    ExpiresByType video/webm                            "access plus 1 day"
 
   # Web feeds
     ExpiresByType application/atom+xml                  "access plus 1 hour"
