@@ -85,7 +85,8 @@ $bodyTop = '
                     </a>
 
                     <a  href="index.php" class="navbar-brand">
-                        <img src="img/logo.gif" alt=""/>
+                        Meteora
+                        <!--<img src="img/logo.gif" alt=""/>-->
                     </a>
 
                 </div>

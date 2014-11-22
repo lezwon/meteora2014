@@ -272,15 +272,16 @@ body{
   }
 
   .navbar-brand {
-    padding: 0;
-    font-family: 'Open Sans', sans-serif !important;
+    padding: 10px 5px;
+    font-size: 1em;
+    font-family: 'Niconne', sans-serif !important;
+    font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
     float: right;
 
     img {
-      height: 33px;
+      height: 50px;
     }
   }
 
@@ -307,6 +308,7 @@ body{
 //  background-image: url("../img/night_music_concert-wallpaper-1920x1200.jpg");
 //  background-image: url("../img/18389-laser-show-at-a-concert-1920x1200-photography-wallpaper.jpg");
   background-image: url("../img/cover2.jpg");
+  background-position: center;
   background-size: cover;
 
 
@@ -390,19 +392,33 @@ body{
   padding: 5% 0;
 //  background: linear-gradient(grey 90%, transparent 10%);
 //  @include background-image(linear-gradient(top, rgba(0,0,0,0) 0%,rgba(2,2,2,0) 1%, rgba(213, 213, 213, 0.65) 100%));
-  background: url("../img/sys_media_2094.jpg");
   background-size: cover;
-  background-position-y: 25%;
+  background: url("../img/curtain.jpg") top center;
   min-height: 500px;
   margin-bottom: 50px;
   @include single-box-shadow(0,5px,15px,0px,transparentize(black,.3));
 
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   h1, p{
     color: darken(#ffffff,10);
+    text-align: center;
   }
 
   h1{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 700;
     text-transform: uppercase;
   }

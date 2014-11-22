@@ -50,9 +50,18 @@
 
             <div class="section" id="intro">
                 <div class="row">
+                    <div class="small-12 columns">
 
 
-                    <div class="small-12 large-6 large-push-6 columns">
+                        <div class="videoWrapper">
+                            <iframe width="560" height="350" src="//www.youtube.com/embed/yugjPaYSIHg"
+                                    frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 columns">
                         <div class="text-container">
                             <h1>Meteora 2014: Mystery Box Unveiled</h1>
 
@@ -68,7 +77,7 @@
 
                             <p>Life is a mystery with twists and turns, and so is Meteora 2014. We have chosen out theme as
                                 Meteora 2014: Mystery Box Unveiled. We promise you two days full of excitement and
-                                fun. So get set and be there, cause the excitement is gonna begin soon!!
+                                fun. So get set and be there, cause the excitement is gonna begin soon!
                             </p>
                         </div>
                     </div>
