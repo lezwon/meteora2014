@@ -37,8 +37,8 @@
 
 #banner{
   height: 550px;
-  background: url("../img/Concert-stock3112_small.jpg") top;
-  background-size: 120%;
+  background: url("../img/cover-mobile.jpg") center;
+  background-size: cover;
 
 
   .row .text-container{
@@ -69,7 +69,6 @@
 
   ul li a{
     font-size: 2em;
-    padding: 25px 0;
   }
 }
 
@@ -187,7 +186,7 @@
     background: none;
 
     h1{
-      font-size: xx-large;
+      font-size: xx-large !important;
     }
 
     p{

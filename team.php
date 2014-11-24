@@ -43,16 +43,17 @@
 
                     <picture>
                         <!--<source media="(min-width: 64em)" src="high-res.jpg">-->
-                        <source media="(min-width: 37.5em)" id="event-image-large" srcset="img/SGU.jpg">
+                        <source media="(min-width: 37.5em)" id="event-image-large" srcset="img/group.jpg">
                         <source id="event-image-mobile" srcset="">
-                        <img src="img/SGU.jpg" alt=""/>
+                        <img src="img/group.jpg" alt=""/>
                     </picture>
                     <div class="team-text text-center">
-                        <h1 >The Meteora 2014 Team</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut culpa debitis ex iste iusto
-                            magni nesciunt nihil non quia quis, quo reiciendis repudiandae voluptatem, voluptates.
-                            Impedit quos ratione ullam?</p>
-
+                        <div class="team-text-center">
+                            <h1 >The Meteora 2014 Team</h1>
+                            <p>This photo consists of the council members of Don Bosco's College for the year 2014-15.
+                                Meteora is largely being organized under their effort and management.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,7 +79,7 @@
                                             <h4><?php echo $row["name"]; ?></h4>
                                             <small><?php echo $row["post"]; ?></small>
                                             <?php if($row["phone"] != "" ){ ?>
-                                                <p>Tel: <a href="tel:+91<?php echo $row["phone"]; ?>"><?php echo $row["phone"]; ?></a></p>
+                                                <p>Tel: <a href="tel:<?php echo $row["phone"]; ?>"><?php echo $row["phone"]; ?></a></p>
                                             <?php } ?>
                                         </div>
                                     </div>

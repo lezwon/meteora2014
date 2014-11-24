@@ -7,7 +7,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
 
-        <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+
 
         <?php echo $head; ?>
     </head>
@@ -19,20 +19,7 @@
         <div class="wrapper">
 
             <div class="section" id="banner">
-                <div class="row hide-for-medium-up">
-                    <div class="small-12 columns">
-                        <div class="text-container">
 
-
-                                    <img src="img/bosco.png" alt=""/>
-                                    <h3>Don Bosco's College Panjim Presents</h3>
-
-
-                            <h1>Meteora 2014</h1>
-                            <h2>Mystery Box Unveiled</h2>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div class="section" id="sub-nav">
@@ -339,7 +326,7 @@
                                             <div class="text-ctr">
                                                 <h4>Prajakta Ambiye</h4>
                                                 <small>Cultural Secretary</small>
-                                                <p>Tel: <a href="tel:+919049442604">9049442604</a></p>
+                                                <p>Tel: <a href="tel:+919049442604">+919049442604</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -359,7 +346,7 @@
                                             <div class="text-ctr">
                                                 <h4>Kunal Dalvi</h4>
                                                 <small>General Secretary</small>
-                                                <p>Tel: <a href="tel:+918087652452">8087652452</a></p>
+                                                <p>Tel: <a href="tel:+918087652452">+918087652452</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -378,7 +365,7 @@
                                             <div class="text-ctr">
                                                 <h4>Vibhinav Shirodkar</h4>
                                                 <small>Meteora Chairman</small>
-                                                <p>Tel: <a href="tel:+919405348993">+91779836104</a></p>
+                                                <p>Tel: <a href="tel:+919405348993">+917798361040</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -412,7 +399,7 @@
                                     <li><a target="_blank" href="">Sponsors</a></li>
                                     <li><a target="_blank" href="http://tlk.io/meteora2014">Live Chat</a></li>
                                     <li><a target="_blank" href="http://www.donboscogoa.org/">College Website</a></li>
-                                    <li><a target="_blank" href="" >Testimonials</a></li>
+                                    <li><a target="_blank" href="sitemap.xml.gz" >Sitemap</a></li>
                                     <li><a target="_blank" href="http://facebook.com/2014meteora" >Facebook</a></li>
                                 </ul>
                             </div>

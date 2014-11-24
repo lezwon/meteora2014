@@ -1,5 +1,23 @@
 <?php
 
+function curPageURL() {
+    $pageURL = 'http';
+    if(array_key_exists("HTTPS",$_SERVER))
+    {
+        if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+        $pageURL .= "://";
+    }
+
+    if ($_SERVER["SERVER_PORT"] != "80") {
+        $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+    } else {
+        $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+    }
+    return $pageURL;
+}
+
+$currentPage = curPageURL();
+
 $head = '
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +25,11 @@ $head = '
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 
+        <!--Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+
+        <!--Frameworks and Plugins-->
         <link rel="stylesheet" href="bower_components/bootstrap-sass/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/foundation.min.css"/>
         <link rel="stylesheet" href="bower_components/sidr/stylesheets/jquery.sidr.dark.css"/>
@@ -22,16 +44,18 @@ $head = '
         <meta name="google-site-verification" content="ai82t3KkJx0RW66gGwiOjW45r_GDjVHTS-UsROCOYoQ" />
 
         <!-- Social: Facebook / Open Graph -->
-        <meta property="og:url" content="http://xmeteora.net">
+        <meta property="og:url" content="'.$currentPage. '">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Meteora 2014: Mystery Box Unveiled">
-        <meta property="og:image" content="../img/logo.jpg"/>
+        <meta property="og:image" content="http://xmeteora.org/img/share.jpg"/>
+
         <meta property="og:description" content="Don Bosco College Presents METEORA 2014. Event ensure
         2 fun filled days of nonstop activities with pulsating sound,dazzling
         moves and back 2 back contests.">
+        <meta property="fb:app_id" content="754419687973481" />
         <meta property="og:site_name" content="Meteora 2014">
-        <meta property="website:author" content="https://www.facebook.com/lezwon">
-        <meta property="website:publisher" content="https://www.facebook.com/lezwon">
+        <!--<meta property="article:author" content="https://www.facebook.com/lezwon" />-->
+
 
         <!--Favicon-->
         <link rel="shortcut icon" href="img/favicon/favicon.ico">
@@ -95,7 +119,8 @@ $bodyTop = '
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li>
-                            <div class="fb-like" data-href="https://www.facebook.com/2014meteora?ref=br_tf" data-width="60" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+                            <div class="fb-like" data-href="https://www.facebook.com/2014meteora" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                            <div class="fb-share-button" data-href="http://xmeteora.org" data-layout="button_count"></div>
                         </li>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="events.php">Events</a></li>
@@ -191,7 +216,7 @@ $footer = '
                     <li><a target="_blank" href="">Sponsors</a></li>
                     <li><a target="_blank" href="http://tlk.io/meteora2014">Live Chat</a></li>
                     <li><a target="_blank" href="http://www.donboscogoa.org/">College Website</a></li>
-                    <li><a target="_blank" href="" >Testimonials</a></li>
+                    <li><a target="_blank" href="sitemap.xml.gz" >Sitemap</a></li>
                     <li><a target="_blank" href="http://facebook.com/2014meteora" >Facebook</a></li>
                 </ul>
             </div>
