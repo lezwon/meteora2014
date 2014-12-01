@@ -28,175 +28,192 @@
 /* line 32, ../scss/mobile.scss */
 .other-wrapper {
   padding-top: 20%;
+  margin: 0 2%;
 }
 
-/* line 38, ../scss/mobile.scss */
+/* line 39, ../scss/mobile.scss */
 #banner {
-  height: 550px;
+  height: 500px;
   background: url("../img/cover-mobile.jpg") center;
   background-size: cover;
 }
-/* line 46, ../scss/mobile.scss */
+/* line 47, ../scss/mobile.scss */
 #banner .row .text-container img {
   width: 120px;
 }
-/* line 50, ../scss/mobile.scss */
+/* line 51, ../scss/mobile.scss */
 #banner .row .text-container h1 {
   font-size: 3.5em;
 }
-/* line 54, ../scss/mobile.scss */
+/* line 55, ../scss/mobile.scss */
 #banner .row .text-container h2 {
   font-size: 2em;
 }
-/* line 58, ../scss/mobile.scss */
+/* line 59, ../scss/mobile.scss */
 #banner .row .text-container h3 {
   font-size: 1em;
 }
 
-/* line 66, ../scss/mobile.scss */
+/* line 67, ../scss/mobile.scss */
 #sub-nav .columns {
   padding: 0;
 }
-/* line 70, ../scss/mobile.scss */
+/* line 71, ../scss/mobile.scss */
 #sub-nav ul li a {
   font-size: 2em;
 }
 
-/* line 75, ../scss/mobile.scss */
+/* line 76, ../scss/mobile.scss */
 #intro {
   background: url("../img/curtain_mobile.jpg") no-repeat/cover;
 }
-/* line 79, ../scss/mobile.scss */
+/* line 80, ../scss/mobile.scss */
 #intro .text-container {
   text-align: center;
 }
-/* line 83, ../scss/mobile.scss */
+/* line 84, ../scss/mobile.scss */
 #intro .text-container h1 {
   font-size: 28px;
 }
-/* line 87, ../scss/mobile.scss */
+/* line 88, ../scss/mobile.scss */
 #intro .text-container p {
   font-size: .8em;
 }
 
-/* line 97, ../scss/mobile.scss */
+/* line 98, ../scss/mobile.scss */
 #schedule .tab-nav a {
-  padding: 5px 15px !important;
+  padding: 10px 25px !important;
   margin-right: 20px !important;
-  font-size: 1.8em !important;
+  font-size: 1.4em !important;
 }
-/* line 104, ../scss/mobile.scss */
+/* line 105, ../scss/mobile.scss */
 #schedule table tr td {
   padding: 15px 10px;
 }
-/* line 108, ../scss/mobile.scss */
+/* line 109, ../scss/mobile.scss */
 #schedule table tr td a {
   font-size: .9em;
 }
 
-/* line 116, ../scss/mobile.scss */
+/* line 117, ../scss/mobile.scss */
 #committee {
   background: url("../img/Bokeh-Wallpaper_small.jpg");
   background-size: contain;
 }
-/* line 120, ../scss/mobile.scss */
+/* line 121, ../scss/mobile.scss */
 #committee .quote {
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 20px 0;
 }
-/* line 127, ../scss/mobile.scss */
+/* line 128, ../scss/mobile.scss */
 #committee .email-contact p {
   font-size: 1.8em;
 }
-/* line 131, ../scss/mobile.scss */
+/* line 132, ../scss/mobile.scss */
 #committee .email-contact a {
   margin: 1% auto;
   padding: 5% 0;
   width: 100%;
 }
+/* line 138, ../scss/mobile.scss */
+#committee .text-ctr {
+  height: auto;
+}
 
-/* line 140, ../scss/mobile.scss */
+/* line 144, ../scss/mobile.scss */
 #footer {
   margin-top: 10%;
 }
-/* line 144, ../scss/mobile.scss */
+/* line 148, ../scss/mobile.scss */
 #footer h1 {
   font-size: 3em;
   padding: 20px 0;
 }
+/* line 154, ../scss/mobile.scss */
+#footer .sponsor-grid-1 .sponsor-image-container {
+  padding: 20% !important;
+}
+/* line 160, ../scss/mobile.scss */
+#footer .sponsor-grid-2 .sponsor-image-container {
+  padding: 6% !important;
+}
+/* line 165, ../scss/mobile.scss */
+#footer .sponsor-title {
+  font-size: .9em !important;
+}
 
-/* line 150, ../scss/mobile.scss */
+/* line 172, ../scss/mobile.scss */
 .infobox {
   padding: 10px 15px;
 }
-/* line 153, ../scss/mobile.scss */
+/* line 175, ../scss/mobile.scss */
 .infobox h4 {
   font-size: .9em;
 }
-/* line 157, ../scss/mobile.scss */
+/* line 179, ../scss/mobile.scss */
 .infobox p {
   font-size: .8em;
 }
 
-/* line 162, ../scss/mobile.scss */
+/* line 184, ../scss/mobile.scss */
 .bokeh-bg {
   background: url("../img/bokeh-bg-small.jpg");
 }
 
-/* line 169, ../scss/mobile.scss */
+/* line 191, ../scss/mobile.scss */
 .other-row h1 {
   margin: 40px 0 20px 0;
 }
-/* line 173, ../scss/mobile.scss */
+/* line 195, ../scss/mobile.scss */
 .other-row p {
   font-size: medium;
 }
 
-/* line 179, ../scss/mobile.scss */
+/* line 201, ../scss/mobile.scss */
 .image-container {
   padding: 15px;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 183, ../scss/mobile.scss */
+/* line 205, ../scss/mobile.scss */
 .image-container .team-text {
   position: static;
   padding: 0;
   background: none;
 }
-/* line 188, ../scss/mobile.scss */
+/* line 210, ../scss/mobile.scss */
 .image-container .team-text h1 {
   font-size: xx-large !important;
 }
-/* line 192, ../scss/mobile.scss */
+/* line 214, ../scss/mobile.scss */
 .image-container .team-text p {
   font-size: small;
 }
 
-/* line 199, ../scss/mobile.scss */
+/* line 221, ../scss/mobile.scss */
 .team-member-row h1 {
   font-size: 2em;
 }
 
-/* line 206, ../scss/mobile.scss */
+/* line 228, ../scss/mobile.scss */
 .rules-container .title {
   font-size: 1.9em;
   width: 100%;
 }
-/* line 211, ../scss/mobile.scss */
+/* line 233, ../scss/mobile.scss */
 .rules-container ul {
   padding: 20px;
 }
-/* line 214, ../scss/mobile.scss */
+/* line 236, ../scss/mobile.scss */
 .rules-container ul li {
   font-size: .8em;
   padding: 5px 0;
 }
 
-/* line 224, ../scss/mobile.scss */
+/* line 246, ../scss/mobile.scss */
 #event-modal .modal-body {
   padding: 10px;
 }
-/* line 231, ../scss/mobile.scss */
+/* line 253, ../scss/mobile.scss */
 #event-modal .modal-body #event-name {
   font-size: 1.3em;
 }

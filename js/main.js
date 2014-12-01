@@ -95,7 +95,7 @@ $(document).ready(function(){
 
     //Scroll to
     $(function() {
-        $('a[href*=#]:not([href=#],[class*="no-scroll"])').click(function(e) {
+        $('a.scroll[href*=#]:not([href=#])').click(function(e) {
             e.preventDefault();
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);

@@ -212,7 +212,7 @@ $footer = '
 
         <div class="row">
             <div class="small-12 columns">
-                <ul class="small-block-grid-1 medium-block-grid-5 text-center">
+                <ul class="small-block-grid-1 medium-block-grid-5 text-center" id="footer-links">
                     <li><a target="_blank" href="">Sponsors</a></li>
                     <li><a target="_blank" href="http://tlk.io/meteora2014">Live Chat</a></li>
                     <li><a target="_blank" href="http://www.donboscogoa.org/">College Website</a></li>

@@ -27,8 +27,8 @@
                     <div class="small-12 columns">
                         <ul class="small-block-grid-3">
                             <li><a href="events.php">Events</a></li>
-                            <li><a href="#schedule" >Schedule</a></li>
-                            <li><a href="#venue">Venue</a></li>
+                            <li><a href="#schedule" class="scroll">Schedule</a></li>
+                            <li><a href="#venue" class="scroll">Venue</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,8 +77,8 @@
                         <h1 class="title">Schedule</h1>
 
                         <ul class="tab-nav">
-                                <li><a href="#day-1" class="tab-link no-scroll active">Day 1</a></li>
-                                <li><a href="#day-2" class="tab-link no-scroll">Day 2</a></li>
+                                <li><a href="#day-1" class="tab-link active">Day 1</a></li>
+                                <li><a href="#day-2" class="tab-link">Day 2</a></li>
                             </ul>
 
                         <div class="table-container">
@@ -117,7 +117,7 @@
 
                                     <tr>
                                         <td rowspan="2">11.30 - 12.30</td>
-                                        <td rowspan="2">Spooked Out (Finals)</td>
+                                        <td rowspan="2">Do You have What it Takes</td>
                                         <td rowspan="2">A Comic Caper</td>
                                         <td>Freeze the Moment</td>
                                         <td rowspan="5">
@@ -154,7 +154,7 @@
 
                                     <tr>
                                         <td>2.30 - 3.30</td>
-                                        <td>Rock On</td>
+                                        <td>Spooked Out (Finals)</td>
                                         <td>Point - Counterpoint (Round 2)</td>
                                         <td>Business of Ideas (Round 1)</td>
                                         <td>
@@ -168,7 +168,7 @@
                                     <tr>
                                         <td>3.30 - 4.30</td>
                                         <td rowspan="2">
-                                            Twinkle Toes Take A Bow
+                                            When the Stars Came Down
                                         </td>
                                         <td>Pot the Ball</td>
                                         <td> </td>
@@ -211,7 +211,7 @@
 
                                     <tr>
                                         <td>10.30 - 11.30</td>
-                                        <td>Do You have What it Takes</td>
+                                        <td>Muscle Mania</td>
                                         <td>A Wordy Encounter</td>
                                         <td>Weave a Spell</td>
                                         <td> </td>
@@ -219,7 +219,7 @@
 
                                     <tr>
                                         <td>11.30 - 12.30</td>
-                                        <td>Squaring Off Final </td>
+                                        <td>Squaring Off (Final) </td>
                                         <td>Musically Yours</td>
                                         <td>Business of Ideas (Round 2)</td>
                                         <td> </td>
@@ -227,8 +227,8 @@
 
                                     <tr>
                                         <td>12.30 - 1.30</td>
-                                        <td>Point - Counterpoint (Final)</td>
-                                        <td>Muscle Mania</td>
+                                        <td>Rock On</td>
+                                        <td>Point-Counterpoint (Final)</td>
                                         <td> </td>
                                         <td> </td>
                                     </tr>
@@ -248,7 +248,7 @@
 
                                     <tr>
                                         <td>3.30 - 5.00</td>
-                                        <td>When the Stars Came Down</td>
+                                        <td>Twinkle Toes Take A Bow</td>
                                         <td> </td>
                                         <td> </td>
                                         <td> </td>
@@ -385,17 +385,85 @@
                 </div>
 
                 <div id="footer">
-                    <div class="row">
-                        <div class="small-12 columns ">
-                            <h1 class="text-center">We'll C'ya there.</h1>
+
+                    <div id="sponsors">
+                        <div class="row">
+
+                            <div class="small-12 medium-6 columns">
+                                <div class="sponsor-container">
+                                    <div>
+                                        <h5 class="sponsor-title">Media Partners</h5>
+                                    </div>
+
+                                    <div class="sponsor-grid-2">
+                                        <a  target="_blank" title="Navhind Times" href="http://www.navhindtimes.in" class="sponsor-image-container" id="navhind"></a>
+                                        <a   target="_blank" title="DBTV" href="" class="sponsor-image-container" id="dbtv"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-12 medium-6 columns">
+                                <div class="sponsor-container">
+                                    <div>
+                                        <h5 class="sponsor-title">Fashion Partners</h5>
+                                    </div>
+
+                                    <div class="sponsor-grid-2">
+                                        <a  target="_blank" title="Bina Punjani Hair Studio" href="http://binapunjani.com" class="sponsor-image-container" id="bina"></a>
+                                        <a   target="_blank" title="Butterfly Designer" href="http://www.butterflydesigner.in" class="sponsor-image-container" id="butterfly"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr/>
+
+                            <div class="small-12 medium-6 columns">
+                                <div class="sponsor-container">
+                                    <div>
+                                        <h5 class="sponsor-title">Print Partners</h5>
+                                    </div>
+
+                                    <div class="sponsor-grid-2">
+                                        <a  target="_blank" title="ICICI Bank" href="http://www.icicibank.com" class="sponsor-image-container" id="icici"></a>
+                                        <a   target="_blank" title="Bilsoft IT" href="http://bilsoftworld.com" class="sponsor-image-container" id="bilsoft"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-6 medium-3 columns">
+                                <div class="sponsor-container">
+                                    <div>
+                                        <h5 class="sponsor-title">Hospitality Partner</h5>
+                                    </div>
+                                    <div class="sponsor-grid-1">
+                                        <a class="sponsor-image-container" title="Azzure Spree Hotels" target="_blank" href="http://www.spreehotels.com/goa-overview.asp" id="azzure"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-6 medium-3 columns">
+                                <div class="sponsor-container">
+                                    <div>
+                                        <h5 class="sponsor-title">Radio Partner</h5>
+                                    </div>
+                                    <div class="sponsor-grid-1">
+                                        <a class="sponsor-image-container" title="Radio Mirchi" target="_blank" href="http://www.radiomirchi.com/goa" id="radio-mirchi"></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="small-12 columns ">
+                            <h1 class="text-center">We'll C'ya there</h1>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="row">
                             <div class="small-12 columns">
-                                <ul class="small-block-grid-1 medium-block-grid-5 text-center">
+                                <ul class="small-block-grid-1 medium-block-grid-5 text-center" id="footer-links">
                                     <li><a target="_blank" href="">Sponsors</a></li>
                                     <li><a target="_blank" href="http://tlk.io/meteora2014">Live Chat</a></li>
                                     <li><a target="_blank" href="http://www.donboscogoa.org/">College Website</a></li>
@@ -408,7 +476,7 @@
                     <div class="row">
                         <div class="small-12 columns small-centered">
                             <p class="text-center author">
-                                Created by <a href="">Lezwon Castellino</a>
+                                Created by <a href="http://facebook.com/lezwon" target="_blank">Lezwon Castellino</a>
                             </p>
                         </div>
                     </div>
