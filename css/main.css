@@ -145,14 +145,11 @@ hr {
 }
 /* line 100, ../scss/main.scss */
 .infobox .img-ctr {
-  width: 90%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   border: 5px solid white;
   overflow: hidden;
-  max-width: 100px;
-  max-height: 10px;
 }
 /* line 111, ../scss/main.scss */
 .infobox .img-ctr img {
@@ -891,7 +888,7 @@ hr {
 /* line 756, ../scss/main.scss */
 .team-member-row .team-grid li .infobox {
   max-height: 100px;
-  padding: 5% 0 0 5%;
+  padding: 5%;
 }
 
 /* line 766, ../scss/main.scss */

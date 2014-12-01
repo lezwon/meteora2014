@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+    $(".img-ctr").css('min-height',$(".img-ctr").outerWidth());
     //$(document).foundation();
 
     //facebook SDk

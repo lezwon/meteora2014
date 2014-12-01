@@ -415,7 +415,7 @@
                                 </div>
                             </div>
 
-                            <hr/>
+
 
                             <div class="small-12 medium-6 columns">
                                 <div class="sponsor-container">
@@ -451,12 +451,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="small-12 columns ">
-                            <h1 class="text-center">We'll C'ya there</h1>
                         </div>
                     </div>
 

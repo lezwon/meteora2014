@@ -99,14 +99,14 @@ hr{
 
   .img-ctr{
     //      height: 100px;
-    width: 90%;
+//    width: 90%;
     //      min-height: 92px;
 
     @include border-radius(50%);
     border: 5px solid white;
     overflow: hidden;
-    max-width: 100px;
-    max-height: 10px;
+
+
 
     img{
       width: 100%;
@@ -755,7 +755,7 @@ body{
     li{
       .infobox{
         max-height: 100px;
-        padding: 5% 0 0 5%;
+        padding: 5%;
       }
     }
   }
